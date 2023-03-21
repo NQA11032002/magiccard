@@ -20,7 +20,7 @@ class Guild extends Controller
             $id_guild = $this->model->getGuild($id_user)["id"];
             $result = $this->model->getListGuild($id_guild);
 
-            var_dump($result);
+            echo $result;
         }
     }
 }

@@ -186,6 +186,7 @@ body {
 	position: relative;
 	overflow: hidden;
 	max-width: 100%;
+	padding: unset;
 }
 .top {
 	width: 100%;

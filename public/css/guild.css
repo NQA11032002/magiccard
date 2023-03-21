@@ -26,11 +26,18 @@
 	border-radius: 10px;
 	z-index: 9999999;
 	width: 1200px;
-	background-color: #5c8689;
+	background-color: #ffff;
 	height: 794px;
+	overflow-y: auto;
 }
 
 .title_guild {
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
+	margin: 15px 0;
+	color: #ffae00;
+}
+
+.guild_table > :not(caption) > * > * {
+	font-size: 17px !important;
 }

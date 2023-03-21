@@ -1,0 +1,129 @@
+.label_meridian {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999999;
+}
+#cb_meridian:checked ~ .label_meridian {
+	display: block;
+}
+#cb_meridian:checked ~ .meridians {
+	display: grid;
+}
+
+.meridians {
+	display: none;
+	grid-template-columns: 70% 30%;
+	column-gap: 15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	z-index: 9999999;
+	width: 1200px;
+	background-color: rgba(19, 18, 18, 0.9);
+	height: 800px;
+}
+
+.meridians__container {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	column-gap: 15px;
+}
+
+.meridian_item {
+	width: 100px;
+	height: 100px;
+	border: 1px solid var(--color-border);
+	border-radius: 100%;
+}
+
+.meridian_left-1 {
+	left: 40%;
+	top: 5%;
+}
+
+.meridian_left-2 {
+	top: 40%;
+	left: 10%;
+}
+
+.meridian_left-3 {
+	top: 75%;
+	left: 40%;
+}
+
+.meridian_right-1 {
+	right: 40%;
+	top: 5%;
+}
+
+.meridian_right-2 {
+	top: 40%;
+	right: 20%;
+}
+
+.meridian_right-3 {
+	top: 75%;
+	right: 40%;
+}
+
+.meridian_center-character {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	width: 54%;
+}
+.inventory_meridians {
+	border-left: 1px solid rgba(0, 0, 0, 0.5);
+	height: 800px;
+	overflow-y: auto;
+}
+.inventory_meridians__container {
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+	grid-auto-flow: row;
+	grid-gap: 5px;
+	height: auto;
+
+	padding: 20px;
+}
+.inventory_meridians--item {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	border: 1px solid rgb(169 169 169 / 75%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.meridian_item--image {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title_meridian {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	font-size: 22px;
+	font-weight: 600;
+	color: #ff9900;
+	margin-top: 10px;
+}

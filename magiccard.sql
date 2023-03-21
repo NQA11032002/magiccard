@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 21, 2023 lúc 09:03 AM
+-- Thời gian đã tạo: Th3 21, 2023 lúc 04:03 PM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -50,6 +50,22 @@ CREATE TABLE `guild` (
   `role` varchar(250) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Đang đổ dữ liệu cho bảng `guild`
+--
+
+INSERT INTO `guild` (`id`, `id_guild`, `id_user`, `role`) VALUES
+(1, 1, 66, 'Bang chủ'),
+(2, 1, 67, 'Thành viên'),
+(3, 1, 68, 'Thành viên'),
+(4, 1, 69, 'Thành viên'),
+(5, 1, 70, 'Thành viên'),
+(6, 2, 74, 'Bang chủ'),
+(7, 2, 75, 'Thành viên'),
+(8, 2, 76, 'Thành viên'),
+(9, 2, 77, 'Thành viên'),
+(10, 2, 78, 'Thành viên');
+
 -- --------------------------------------------------------
 
 --
@@ -61,6 +77,14 @@ CREATE TABLE `guilds` (
   `id_user` int(11) DEFAULT NULL,
   `name` varchar(250) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Đang đổ dữ liệu cho bảng `guilds`
+--
+
+INSERT INTO `guilds` (`id`, `id_user`, `name`) VALUES
+(1, 66, 'Thiên long'),
+(2, 73, 'Bát long');
 
 -- --------------------------------------------------------
 
@@ -69418,7 +69442,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `user_name`, `password`, `email`, `name`, `coin`, `verify_token`, `image`, `level`, `id_sever`) VALUES
-(66, 'Mộc Tử', '$2y$10$qJ9jAMoURJFSZYMsUaaB5eUs3M5hbNU.b2ReTHuQw.PChMRUjg9x.', 'kawasakisga@gmail.com', 'Thiên Tru', 308000, NULL, '', 1, 1),
+(66, 'thienha', '123123', 'kawasakisga@gmail.com', 'Thiên Tru', 308000, NULL, '', 1, 1),
 (67, 'admin1', '$2y$10$2hNZ8SF7wrzxZoTACq.0lOCa4EmYT5p598N.eqOB4tPDcERJ0VArG', NULL, 'Thiên Long', 0, NULL, '', 4, 1),
 (68, 'admin2', '$2y$10$QE0QpyZemnzuh8LKe8e7te5EBS84ZrCqDgJxJ7mud6iZS5kWvv2tK', NULL, 'Luân đạo', 0, NULL, '', 8, 2),
 (69, 'admin555', '$2y$10$67JqPfDI4es3OdW/SDWAP.0T0AT0Rn6ONpj0B0L3j0PwChO5rKmy.', NULL, 'admin123', 0, NULL, './public/images/avatar/noavatar.png', 3, 3),
@@ -69548,13 +69572,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `guild`
 --
 ALTER TABLE `guild`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT cho bảng `guilds`
 --
 ALTER TABLE `guilds`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT cho bảng `history_point_lucky`

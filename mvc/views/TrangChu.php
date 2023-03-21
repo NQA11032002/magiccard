@@ -30,6 +30,8 @@
     <link rel="stylesheet" type="text/css" href="./public/css/forget.css">
     <link rel="stylesheet" type="text/css" href="./public/css/shop.css">
     <link rel="stylesheet" type="text/css" href="./public/css/guild.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/pvp.css">
+    <link rel="stylesheet" type="text/css" href="./public/css/meridian.css">
 
     <!--
     <script type="text/javascript"
@@ -58,6 +60,8 @@
         <?php include_once './mvc/views/DangNhap.php';?>
         <?php include_once './mvc/views/QuenMatKhau.php';?>
         <?php include_once './mvc/views/Guild.php';?>
+        <?php include_once './mvc/views/pvp.php';?>
+        <?php include_once './mvc/views/KinhMach.php';?>
 
         <div class="page top">
             <div class="logo"></div>
@@ -343,6 +347,7 @@ if (isset($_SESSION["logined"])) {?>
     <script type="text/javascript" src="./public/js/rankings.js"></script>
     <script type="text/javascript" src="./public/js/shop.js"></script>
     <script type="text/javascript" src="./public/js/gatcha.js"></script>
+    <script type="text/javascript" src="./public/js/guild.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 

@@ -35,6 +35,12 @@
                     <label for="cbGuild">
                         <i class="fa-brands fa-guilded" id=""></i>
                     </label>
+                    <label for="cb_pvp" class="icon_pvp">
+                        <i class="fa-solid fa-trophy"></i>
+                    </label>
+                    <label for="cb_meridian" class="cb_meridian">
+                        <i class="fa-solid fa-trophy"></i>
+                    </label>
                     <div class="mucsic_container">
                         <img class="music play_audio" src="./public/images/pause.png" alt="">
 
