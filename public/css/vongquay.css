@@ -1,0 +1,322 @@
+.lottery_t {
+	display: block;
+	width: 851px;
+	margin: 0 auto;
+}
+.lottery_box {
+	position: relative;
+	width: 730px;
+	height: 690px;
+	margin: 300px 0 0 250px;
+}
+.lottery_img_wrap {
+	position: relative;
+	width: 703px;
+	left: 150px;
+	height: 690px;
+}
+.lottery_img_wrap span {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+.lottery_img_wrap .p1 {
+	left: 0;
+	top: 0;
+	background: url(https://i.imgur.com/15uLY8t.png);
+}
+.lottery_img_wrap .p2 {
+	left: 180px;
+	top: 0;
+	background: url(https://i.imgur.com/HYiaCke.png);
+}
+.lottery_img_wrap .p3 {
+	left: 359px;
+	top: 0;
+	background: url(https://i.imgur.com/WNsK3LX.png);
+}
+.lottery_img_wrap .p4 {
+	left: 539px;
+	top: 0px;
+	background: url(https://i.imgur.com/iv7yIZX.png);
+}
+.lottery_img_wrap .p5 {
+	left: 539px;
+	top: 176px;
+	background: url(https://i.imgur.com/1v7OnBR.png);
+}
+.lottery_img_wrap .p6 {
+	left: 539px;
+	top: 353px;
+	background: url(https://i.imgur.com/5CQRU3P.png);
+}
+.lottery_img_wrap .p7 {
+	left: 539px;
+	top: 530px;
+	background: url(https://i.imgur.com/S96JwbJ.png);
+}
+.lottery_img_wrap .p8 {
+	left: 359px;
+	top: 530px;
+	background: url(https://i.imgur.com/txTDGX4.png);
+}
+.lottery_img_wrap .p9 {
+	left: 180px;
+	top: 530px;
+	background: url(https://i.imgur.com/K7nWZOt.png);
+}
+.lottery_img_wrap .p10 {
+	left: 0;
+	top: 530px;
+	background: url(https://i.imgur.com/grUHBaY.png);
+}
+.lottery_img_wrap .p11 {
+	left: 0;
+	top: 353px;
+	background: url(https://i.imgur.com/CX7DQlH.png);
+}
+.lottery_img_wrap .p12 {
+	left: 0;
+	top: 178px;
+	background: url(https://i.imgur.com/Nnk9zhp.png);
+}
+.lottery_img_wrap .p1.on {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery1_on.png);
+}
+.lottery_img_wrap .p2.on {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery2_on.png);
+}
+.lottery_img_wrap .p3.on {
+	background: url(https://i.imgur.com/BppFZjt.png);
+}
+.lottery_img_wrap .p4.on {
+	background: url(https://i.imgur.com/d1AOWrf.png);
+}
+.lottery_img_wrap .p5.on {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery5_on.png);
+}
+.lottery_img_wrap .p6.on {
+	background: url(https://i.imgur.com/5CQRU3P.png);
+}
+.lottery_img_wrap .p7.on {
+	background: url(https://i.imgur.com/S96JwbJ.png);
+}
+.lottery_img_wrap .p8.on {
+	background: url(https://i.imgur.com/xIDdKLH.png);
+}
+.lottery_img_wrap .p9.on {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery9_on.png);
+}
+.lottery_img_wrap .p10.on {
+	background: url(https://i.imgur.com/pDIxLsZ.png);
+}
+.lottery_img_wrap .p11.on {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery11_on.png);
+}
+.lottery_img_wrap .p12.on {
+	background: url(https://i.imgur.com/T02YPIh.png);
+}
+.lottery_light {
+	position: absolute;
+	width: 1095px;
+	height: 350px;
+	left: -186px;
+	top: -166px;
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery_light.png);
+}
+.btn_lottery {
+	position: absolute;
+	border: none;
+	width: 417px;
+	height: 372px;
+	left: 260px;
+	top: 90px;
+	background: url(https://i.imgur.com/G0duUQA.png);
+	cursor: pointer;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.lottery_num {
+	position: absolute;
+	width: 324px;
+	height: 42px;
+	left: 300px;
+	top: 375px;
+	font: normal 30px/42px "Microsoft Yahei";
+	color: #fed564;
+	text-align: center;
+}
+.lottery_num span {
+	color: #b44725;
+}
+
+.btn_wrap {
+	width: 946px;
+	height: 61px;
+	margin: 59px auto 0;
+	overflow: hidden;
+}
+.btn_wrap a {
+	float: left;
+	width: 298px;
+	height: 61px;
+	margin-left: 26px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.btn_wrap a.btn_myprize {
+	margin: 0;
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/btn_myprize.png);
+}
+.btn_wrap a.btn_invite {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/btn_invite.png);
+}
+.btn_wrap a.btn_rule {
+	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/btn_rule.png);
+}
+.btn_wrap a:hover {
+	background-position: 0 -61px;
+}
+.lottery_tip {
+	margin-top: 54px;
+	font: normal 18px/22px "Microsoft Yahei";
+	color: #766f4c;
+	text-align: center;
+}
+.active {
+	width: 163px;
+	height: 186px;
+	border-left: 2px solid #ff9900;
+	border-top: 2px solid #ff9900;
+	border-bottom: 2px solid #ff9900;
+	border-right: 2px solid #ff9900;
+	box-shadow: -20px -20px 30px -25px #ff9900, 20px 20px 30px -25px #ff9900, -7px -7px 10px -5px #ff9900, 7px 7px 10px -5px #ff9900, 0 0 13px 4px #ff9900, 0 55px 35px -20px;
+}
+.lottery_wrap {
+	display: flex !important;
+}
+.lottery__quantity {
+	position: absolute;
+	bottom: 0;
+	left: 35%;
+}
+.lottery__quantity--items {
+	display: flex;
+	flex-direction: column;
+	width: 160px;
+}
+.lottery__quantity--item {
+	position: relative;
+	border-left: 10px solid #caa454;
+	height: 100px;
+}
+.lottery__quantity--item::after,
+.lottery__quantity--item.active_lucky::after,
+.lottery__quantity--item.actived_lucky::after {
+	content: attr(data-content);
+	position: absolute;
+	top: -16px;
+	left: -17.4px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: 12px;
+	color: #ffff;
+	border-radius: 100%;
+	background-color: #caa454;
+}
+
+.lottery__quantity--item.active_lucky::after {
+	background-color: #ff3333;
+}
+.lottery__quantity--item.actived_lucky::after {
+	background-color: #aaaaaa;
+}
+.lottery__quantity--item::before,
+.lottery__quantity--item.active_lucky::before,
+.lottery__quantity--item.actived_lucky::before {
+	content: "";
+	position: absolute;
+	left: -41px;
+	top: -5%;
+	height: 5px;
+	width: 25px;
+	background-color: #caa454;
+}
+.lottery__quantity--item.active_lucky::before {
+	background-color: #ff3333;
+}
+.lottery__quantity--item.actived_lucky::before {
+	background-color: #aaaaaa;
+}
+.lottery__quantity--item.active_lucky {
+	border-color: #ff3333;
+}
+
+.lottery__quantity--image {
+	position: absolute;
+	top: -37px;
+	left: -90px;
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+}
+
+.total__quantity {
+	color: #ffff;
+	position: absolute;
+	right: 22%;
+	bottom: -29px;
+	width: 100%;
+}
+.lottery__histories {
+	position: absolute;
+	bottom: 45px;
+	right: -55%;
+	height: 595px;
+	background-size: cover;
+	background-image: url(https://i.imgur.com/CE3YnCF.png);
+	width: 410px;
+	color: #ffff;
+}
+.histories__title {
+	text-align: center;
+	color: #caa454;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.lottery__histories--container {
+	margin: 0 10px;
+	padding: 10px;
+	overflow: auto;
+	height: 438px;
+}
+
+.lottery__history {
+	border-bottom: 1px solid #a5a4a4;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.lottery__history:last-child {
+	border-bottom: unset;
+}
+
+.history__date {
+	font-size: 13px;
+	color: #aaaaaa;
+}
+.history__name {
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+.history__name > span {
+	color: #ff0d0d;
+	font-weight: bold;
+}
+.actived_lucky {
+	border-color: #aaaaaa;
+}

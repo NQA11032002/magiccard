@@ -1,0 +1,225 @@
+.label_Inventory {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999999;
+}
+#cbInventory:checked ~ .label_Inventory {
+	display: block;
+}
+#cbInventory:checked ~ .inventories-account {
+	display: block;
+}
+
+.inventories-account {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	z-index: 9999999;
+	width: 1200px;
+	background-repeat: no-repeat;
+	height: 794px;
+	background-image: url(https://i.imgur.com/RjQwrro.png);
+}
+
+.inventories__container {
+	display: grid;
+	width: calc(100% - 100px);
+	grid-template-columns: 40% 20% 40%;
+	column-gap: 30px;
+	/* margin: auto; */
+	margin: 20px;
+}
+
+.inventory__characters {
+	position: relative;
+	background-image: url(https://i.imgur.com/GkH3Csa.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 585px;
+	height: 710px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.wear_equipment {
+	background-image: url(https://i.imgur.com/fq8ytey.png);
+	background-size: COVER;
+	position: relative;
+	width: 75px;
+	height: 75px;
+	border-radius: 5px;
+}
+.wear_equipment > img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 55px;
+	height: 55px;
+	transform: translate(-50%, -50%);
+}
+
+.equipment_left {
+	display: flex;
+	flex-direction: column;
+	width: 60px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+.equipment_left > .wear_equipment {
+	margin-bottom: 10px;
+}
+
+.equipment_bottom {
+	display: flex;
+	margin-left: 34%;
+	margin-top: 38px;
+}
+.equipment_bottom > .wear_equipment {
+	margin-right: 10px;
+}
+
+.equipment_right {
+	position: absolute;
+	top: 175px;
+	right: 8%;
+	transform: translate(-5%, -10%);
+}
+.equipment_right > .wear_equipment {
+	margin-bottom: 10px;
+}
+
+.properties {
+	color: #ffff;
+}
+.properties > h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff9900;
+}
+.properties > p {
+	font-size: 13px;
+	margin: 5px 0;
+}
+.inventories__main {
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+	grid-auto-flow: row;
+	grid-gap: 5px;
+	margin-left: 126px;
+	width: 500px;
+	height: 730px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 15px;
+}
+.inventory_item {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	border: 1px solid rgb(169 169 169 / 75%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.inventory_image {
+	height: 40px;
+	width: 40px;
+	object-fit: cover;
+}
+
+.inventory__properties {
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	padding: 0 20px;
+}
+
+.user_select--equipment {
+	display: none;
+	position: absolute;
+	background-color: #9999ad;
+	height: auto;
+	padding: 5px;
+	width: 60px;
+	top: 48px;
+	left: -2px;
+	flex-direction: column;
+	z-index: 99999;
+	border-radius: 5px;
+}
+.user_select--equipment > button {
+	margin: 5px 0;
+	cursor: pointer;
+	border-radius: 5px;
+	outline: none;
+	border: unset;
+	background: #373750;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.remove__equipment {
+	display: none;
+	position: absolute;
+	right: -65px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #ffffff;
+	padding: 5px 7px;
+	outline: none;
+	width: 60px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 600;
+	box-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+}
+
+.remove__equipment--bottom {
+	right: 0;
+	top: 143%;
+}
+
+.remove__equipment:hover {
+	opacity: 90%;
+}
+.details__weared {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: -205%;
+	transform: translateX(-50%);
+	width: 164px;
+	height: auto;
+	z-index: 99999999;
+	border-radius: 10px;
+	background-color: #333366;
+	color: #ffff;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+}
+.details__weared > img {
+	height: 50px;
+	width: 50px;
+	object-fit: cover;
+}
+.header-power1 {
+	color: #ff9900;
+	font-size: 17px;
+	text-align: left;
+}

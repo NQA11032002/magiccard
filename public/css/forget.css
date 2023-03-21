@@ -1,0 +1,75 @@
+.label_forget {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+}
+#label_forget:checked ~ .label_forget {
+  display: block;
+}
+#label_forget:checked ~ .form_forget {
+  display: block;
+}
+
+.form_forget {
+  grid-template-rows: auto auto auto auto;
+}
+
+.label_forget {
+  text-align: center;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.form_forget {
+  height: auto;
+}
+
+.back__login--fromforget {
+  cursor: pointer;
+  color: #6666cc;
+}
+
+.form_capcha{
+    display: flex;
+}
+
+.icon__changed{
+    margin: auto 0;
+    font-size: 20px;
+    padding-left: 5px;
+    cursor: grab;
+    color: #6666cc;
+}
+
+.capcha{
+    width: 30%;
+    height: 30px;
+    background: #6666cc;
+    box-shadow: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 33px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: default;
+    padding-left: unset;
+    pointer-events: none;
+    outline: none;
+    border: none;
+}
+
+.Register--Error{
+  color: red;
+  padding-left: 10px;
+  margin: 0;
+}

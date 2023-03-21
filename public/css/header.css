@@ -1,0 +1,119 @@
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 1095px;
+	height: 70px;
+	width: 100%;
+	z-index: 999;
+}
+
+.header-container {
+	display: flex;
+	align-content: stretch;
+	justify-content: center;
+}
+
+.header-container > ul {
+	display: flex;
+	align-items: center;
+	color: #ffff;
+}
+
+.header-container > ul > li {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.header-container > ul > li > a {
+	color: #ffff;
+	text-decoration: none;
+}
+
+.header-container > ul > li > a:hover {
+	color: #b2b2eb;
+}
+.header-inventory {
+	cursor: pointer;
+}
+
+.header--account {
+	margin-left: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.header__container--image {
+	flex-direction: column;
+	overflow: hidden;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header__avatar {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+
+.header--name > h2 {
+	font-size: 20px;
+	color: #f00;
+	text-align: left;
+}
+.header--name > h2 > i {
+	padding-left: 5px;
+}
+.header-power {
+	color: #ff9900;
+	font-size: 17px;
+	text-align: left;
+}
+.logined_coin {
+	text-align: left;
+	color: #ffff00;
+	font-size: 17px;
+	margin-top: 5px;
+}
+.logined_coin > i {
+	padding-right: 5px;
+}
+i:hover {
+	opacity: 80%;
+}
+.header-shops {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-shops > .shop {
+	margin-right: 10px;
+}
+
+.play_audio,
+.pause_audio {
+	cursor: pointer;
+}
+
+.pause_audio {
+	display: none;
+}
+.music {
+	margin-top: 20px;
+	height: 40px;
+}
+.mucsic_container {
+	position: fixed;
+	top: 80px;
+	left: 15px;
+}
+.shop {
+	cursor: pointer;
+}
+.header-power1 {
+	color: #ff9900;
+	font-size: 17px;
+	text-align: left;
+}

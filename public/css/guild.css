@@ -1,0 +1,36 @@
+.cbGuild {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999999;
+}
+#cbGuild:checked ~ .cbGuild {
+	display: block;
+}
+#cbGuild:checked ~ .guild_container {
+	display: block;
+}
+
+.guild_container {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	z-index: 9999999;
+	width: 1200px;
+	background-color: #5c8689;
+	height: 794px;
+}
+
+.title_guild {
+	font-size: 24px;
+	font-weight: bold;
+}

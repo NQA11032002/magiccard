@@ -1,0 +1,6 @@
+/*Ipad ngang(1024 x 768)*/
+@media (max-width: 1024px) {
+   .inventories-account {
+      width: 90% !important;
+   }
+}

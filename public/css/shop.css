@@ -1,0 +1,220 @@
+#cbShop:checked ~ .cbShop {
+	display: block;
+}
+#cbShop:checked ~ .shop__container {
+	display: block;
+}
+
+.shop__container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/gU76Yk5.png);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 9999999;
+    width: 1114px;
+    height: 807px;
+}
+.shops__row {
+	padding: 30px;
+	height: 85%;
+}
+.shop__header {
+	position: relative;
+}
+.shop__title {
+	text-align: center;
+	font-weight: bold;
+	color: #ff9900;
+    line-height: 7.9;
+	cursor: default;
+}
+.close__shop {
+    position: absolute;
+    top: 125px;
+    right: -50px;
+    color: #FFF;
+    font-size: 22px;
+    cursor: pointer;
+}
+.shop__items {
+    display: grid;
+    margin-top: -100px;
+    width: 100%;
+    grid-template-columns: 75% 25%;
+    column-gap: 15px;
+}
+.shop__items {
+	height: 100%;
+}
+.shop__items--left {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 10px;
+    overflow: auto;
+    border-radius: 5px;
+    padding: 43px;
+}
+.shop__item {
+        display: flex;
+    background-image: url(https://i.imgur.com/LHE2vRU.png);
+    background-size: cover;
+    border-radius: 5px;
+    width: 225px;
+    height: 50px;
+    border: 1px solid #ff3333;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.shop__item:hover {
+	opacity: 80%;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+}
+
+.shop__item--name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10px;
+}
+.shop__item--name > h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.shop__item--name > p {
+	color: #ffcc33;
+	font-size: 16px;
+}
+.shop__item--name > p > i {
+	padding-right: 5px;
+}
+
+.shop__item--image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	    border-right: 1px solid #ff3333;
+}
+.shop__item--image > img {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    object-fit: cover;
+}
+.shop__items--right {
+    display: grid;
+    border-radius: 5px;
+    background-size: COVER;
+    background-image: url(https://i.imgur.com/sB8PGDK.png);
+    height: 550px;
+    grid-template-rows: 150px auto 235px;
+    row-gap: 15px;
+    margin-left: -20px;
+    width: 350px;
+    margin-top: 40px;
+}
+.shop__images {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item__image {
+	height: 100px;
+	height: 100px;
+	object-fit: cover;
+}
+.shop__images > h3 {
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.shop__description {
+    padding: 10px;
+    display: none;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.shop__description > h4 {
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 600;
+	letter-spacing: 1.1px;
+}
+.shop__description > p {
+	color: 16px;
+	font-weight: 600;
+	color: #aaaaaa;
+}
+
+.shop__information {
+	display: none;
+	padding: 10px;
+	margin-left: 20px;
+	flex-direction: column;
+}
+.shop__information > div {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+}
+.shop__information > div > p {
+	width: 65px;
+	color: #FFF;
+	flex-shrink: 0;
+	cursor: default;
+	font-weight: 600;
+}
+.shop__information > div > p > i {
+	padding-right: 5px;
+}
+.shop__information > div > input,
+.container__amount > input {
+	    width: 100px;
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+    height: 30px;
+    border-radius: 5px;
+    color: #000000;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.container__amount {
+	display: flex;
+	align-items: center;
+}
+.container__amount > input {
+	margin: 0 10px;
+}
+.container__amount > i {
+	cursor: pointer;
+	    color: #FFF;
+}
+
+.buy__item {
+	height: 30px;
+	width: 120px;
+	border: 1px solid #ff9900;
+	background-color: #ff9900;
+	color: #ffff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: 80px;
+	margin-right: 10px;
+	transition: all 0.25s ease;
+}
+.buy__item:hover {
+	background-color: transparent;
+	color: #ff9900;
+}
