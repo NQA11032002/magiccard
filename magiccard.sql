@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 21, 2023 lúc 06:42 AM
+-- Thời gian đã tạo: Th3 21, 2023 lúc 09:03 AM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -45,8 +45,21 @@ DELIMITER ;
 
 CREATE TABLE `guild` (
   `id` int(11) NOT NULL,
+  `id_guild` int(11) NOT NULL,
   `id_user` int(11) DEFAULT NULL,
   `role` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `guilds`
+--
+
+CREATE TABLE `guilds` (
+  `id` int(11) NOT NULL,
+  `id_user` int(11) DEFAULT NULL,
+  `name` varchar(250) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -69460,6 +69473,14 @@ INSERT INTO `users` (`id`, `user_name`, `password`, `email`, `name`, `coin`, `ve
 --
 ALTER TABLE `guild`
   ADD PRIMARY KEY (`id`),
+  ADD KEY `id_user` (`id_user`),
+  ADD KEY `id_guild` (`id_guild`);
+
+--
+-- Chỉ mục cho bảng `guilds`
+--
+ALTER TABLE `guilds`
+  ADD PRIMARY KEY (`id`),
   ADD KEY `id_user` (`id_user`);
 
 --
@@ -69530,6 +69551,12 @@ ALTER TABLE `guild`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
+-- AUTO_INCREMENT cho bảng `guilds`
+--
+ALTER TABLE `guilds`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT cho bảng `history_point_lucky`
 --
 ALTER TABLE `history_point_lucky`
@@ -69585,7 +69612,14 @@ ALTER TABLE `users`
 -- Các ràng buộc cho bảng `guild`
 --
 ALTER TABLE `guild`
-  ADD CONSTRAINT `guild_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`);
+  ADD CONSTRAINT `guild_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`),
+  ADD CONSTRAINT `guild_ibfk_2` FOREIGN KEY (`id_guild`) REFERENCES `guilds` (`id`);
+
+--
+-- Các ràng buộc cho bảng `guilds`
+--
+ALTER TABLE `guilds`
+  ADD CONSTRAINT `guilds_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`);
 
 --
 -- Các ràng buộc cho bảng `history_point_lucky`
