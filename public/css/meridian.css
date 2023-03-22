@@ -41,38 +41,59 @@
 .meridian_item {
 	width: 100px;
 	height: 100px;
-	border: 1px solid var(--color-border);
+	border: 1px solid rgb(209 209 209 / 90%);
 	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.meridian_left-1 {
+.meridian_left-1,
+.meridian_left-1__container {
 	left: 40%;
 	top: 5%;
+	width: 100px;
+	object-fit: cover;
 }
 
-.meridian_left-2 {
+.meridian_left-2,
+.meridian_left-2__container {
 	top: 40%;
 	left: 10%;
+	width: 100px;
+	object-fit: cover;
 }
 
-.meridian_left-3 {
+.meridian_left-3,
+.meridian_left-3__container {
 	top: 75%;
 	left: 40%;
+	width: 100px;
+	object-fit: cover;
 }
 
-.meridian_right-1 {
+.meridian_right-1,
+.meridian_right-1__container {
 	right: 40%;
 	top: 5%;
+	width: 100px;
+	object-fit: cover;
 }
 
-.meridian_right-2 {
+.meridian_right-2,
+.meridian_right-2__container {
 	top: 40%;
 	right: 20%;
+	width: 100px;
+	object-fit: cover;
 }
 
-.meridian_right-3 {
+.meridian_right-3,
+.meridian_right-3__container {
 	top: 75%;
 	right: 40%;
+	width: 100px;
+	object-fit: cover;
 }
 
 .meridian_center-character {
@@ -126,4 +147,26 @@
 	font-weight: 600;
 	color: #ff9900;
 	margin-top: 10px;
+}
+
+.inventory_meridians--item-function {
+	display: none;
+	position: absolute;
+	top: 110%;
+	z-index: 9999;
+	background-color: rgb(40 40 40);
+	height: auto;
+	width: 50px;
+}
+
+.inventory_meridians--item-function > button {
+	width: 100%;
+	color: #ffff;
+	background-color: rgb(151 151 151 / 100%);
+	font-weight: bold;
+	border: unset;
+	border-bottom: 1px solid rgb(169 169 169 / 75%);
+}
+.inventory_meridians--item.active_meridians > .inventory_meridians--item-function {
+	display: block;
 }

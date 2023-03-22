@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th3 21, 2023 lúc 04:03 PM
+-- Thời gian đã tạo: Th3 22, 2023 lúc 08:34 AM
 -- Phiên bản máy phục vụ: 10.4.24-MariaDB
 -- Phiên bản PHP: 8.1.6
 
@@ -132,7 +132,6 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (26, 66, 30, 3, '28-02-2023', 0),
 (27, 66, 25, 1, '28-02-2023', 0),
 (28, 74, 25, 1, '28-02-2023', 0),
-(29, 74, 31, 1, '28-02-2023', 0),
 (30, 74, 31, 1, '28-02-2023', 0),
 (31, 74, 25, 1, '28-02-2023', 0),
 (32, 74, 26, 1, '28-02-2023', 0),
@@ -1615,9 +1614,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (1509, 74, 26, 1, '01-03-2023', 0),
 (1510, 74, 25, 1, '01-03-2023', 0),
 (1511, 74, 31, 1, '01-03-2023', 0),
-(1512, 74, 34, 3, '01-03-2023', 0);
+(1512, 74, 34, 3, '01-03-2023', 0),
+(1513, 74, 34, 3, '01-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(1513, 74, 34, 3, '01-03-2023', 0),
 (1514, 74, 31, 1, '01-03-2023', 0),
 (1515, 74, 31, 1, '01-03-2023', 0),
 (1516, 74, 27, 1, '01-03-2023', 0),
@@ -3083,9 +3082,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (2976, 74, 31, 1, '02-03-2023', 0),
 (2977, 74, 34, 3, '02-03-2023', 0),
 (2978, 74, 25, 1, '02-03-2023', 0),
-(2979, 74, 34, 3, '02-03-2023', 0);
+(2979, 74, 34, 3, '02-03-2023', 0),
+(2980, 74, 27, 1, '02-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(2980, 74, 27, 1, '02-03-2023', 0),
 (2981, 74, 26, 1, '02-03-2023', 0),
 (2982, 74, 34, 3, '02-03-2023', 0),
 (2983, 74, 27, 1, '02-03-2023', 0),
@@ -4551,9 +4550,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (4443, 74, 25, 1, '03-03-2023', 0),
 (4444, 74, 27, 1, '03-03-2023', 0),
 (4445, 74, 31, 1, '03-03-2023', 0),
-(4446, 74, 29, 1, '03-03-2023', 0);
+(4446, 74, 29, 1, '03-03-2023', 0),
+(4447, 74, 31, 1, '03-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(4447, 74, 31, 1, '03-03-2023', 0),
 (4448, 74, 34, 3, '03-03-2023', 0),
 (4449, 74, 34, 3, '03-03-2023', 0),
 (4450, 74, 27, 1, '03-03-2023', 0),
@@ -6019,9 +6018,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (5910, 74, 27, 1, '10-03-2023', 0),
 (5911, 74, 34, 3, '10-03-2023', 0),
 (5912, 74, 25, 1, '10-03-2023', 0),
-(5913, 74, 27, 1, '10-03-2023', 0);
+(5913, 74, 27, 1, '10-03-2023', 0),
+(5914, 74, 25, 1, '10-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(5914, 74, 25, 1, '10-03-2023', 0),
 (5915, 74, 26, 1, '10-03-2023', 0),
 (5916, 74, 26, 1, '10-03-2023', 0),
 (5917, 74, 25, 1, '10-03-2023', 0),
@@ -7487,9 +7486,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (7377, 74, 26, 1, '14-03-2023', 0),
 (7378, 74, 31, 1, '14-03-2023', 0),
 (7379, 74, 30, 3, '14-03-2023', 0),
-(7380, 74, 31, 1, '14-03-2023', 0);
+(7380, 74, 31, 1, '14-03-2023', 0),
+(7381, 74, 34, 3, '14-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(7381, 74, 34, 3, '14-03-2023', 0),
 (7382, 74, 27, 1, '14-03-2023', 0),
 (7383, 74, 34, 3, '14-03-2023', 0),
 (7384, 74, 34, 3, '14-03-2023', 0),
@@ -8955,9 +8954,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (8844, 73, 29, 1, '19-03-2023', 0),
 (8845, 74, 29, 1, '19-03-2023', 0),
 (8846, 73, 28, 1, '19-03-2023', 0),
-(8847, 74, 36, 1, '19-03-2023', 0);
+(8847, 74, 36, 1, '19-03-2023', 0),
+(8848, 73, 28, 1, '19-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(8848, 73, 28, 1, '19-03-2023', 0),
 (8849, 73, 30, 1, '19-03-2023', 0),
 (8850, 74, 26, 1, '19-03-2023', 0),
 (8851, 73, 28, 1, '19-03-2023', 0),
@@ -10414,9 +10413,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (10302, 74, 29, 1, '19-03-2023', 0),
 (10303, 73, 36, 1, '19-03-2023', 0),
 (10304, 74, 26, 1, '19-03-2023', 0),
-(10305, 73, 26, 1, '19-03-2023', 0);
+(10305, 73, 26, 1, '19-03-2023', 0),
+(10306, 74, 26, 1, '19-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(10306, 74, 26, 1, '19-03-2023', 0),
 (10307, 73, 26, 1, '19-03-2023', 0),
 (10308, 73, 26, 1, '19-03-2023', 0),
 (10309, 74, 28, 1, '19-03-2023', 0),
@@ -11840,9 +11839,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (11731, 74, 27, 1, '20-03-2023', 0),
 (11732, 74, 29, 1, '20-03-2023', 0),
 (11733, 74, 27, 1, '20-03-2023', 0),
-(11734, 73, 27, 1, '20-03-2023', 0);
+(11734, 73, 27, 1, '20-03-2023', 0),
+(11735, 74, 30, 1, '20-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(11735, 74, 30, 1, '20-03-2023', 0),
 (11736, 73, 27, 1, '20-03-2023', 0),
 (11737, 74, 36, 1, '20-03-2023', 0),
 (11738, 74, 30, 1, '20-03-2023', 0),
@@ -13266,9 +13265,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (13156, 74, 28, 1, '20-03-2023', 0),
 (13157, 74, 29, 1, '20-03-2023', 0),
 (13158, 74, 26, 1, '20-03-2023', 0),
-(13159, 73, 25, 1, '20-03-2023', 0);
+(13159, 73, 25, 1, '20-03-2023', 0),
+(13160, 73, 28, 1, '20-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(13160, 73, 28, 1, '20-03-2023', 0),
 (13161, 74, 30, 1, '20-03-2023', 0),
 (13162, 74, 27, 1, '20-03-2023', 0),
 (13163, 74, 28, 1, '20-03-2023', 0),
@@ -14684,9 +14683,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (14573, 110, 28, 1, '21-03-2023', 0),
 (14574, 110, 30, 1, '21-03-2023', 0),
 (14575, 74, 27, 1, '21-03-2023', 0),
-(14576, 74, 25, 1, '21-03-2023', 0);
+(14576, 74, 25, 1, '21-03-2023', 0),
+(14577, 74, 29, 1, '21-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(14577, 74, 29, 1, '21-03-2023', 0),
 (14578, 74, 26, 1, '21-03-2023', 0),
 (14579, 73, 30, 1, '21-03-2023', 0),
 (14580, 73, 30, 1, '21-03-2023', 0),
@@ -16102,9 +16101,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (15990, 74, 27, 1, '21-03-2023', 0),
 (15991, 73, 26, 1, '21-03-2023', 0),
 (15992, 73, 29, 1, '21-03-2023', 0),
-(15993, 73, 26, 1, '21-03-2023', 0);
+(15993, 73, 26, 1, '21-03-2023', 0),
+(15994, 73, 28, 1, '21-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(15994, 73, 28, 1, '21-03-2023', 0),
 (15995, 110, 36, 1, '21-03-2023', 0),
 (15996, 110, 28, 1, '21-03-2023', 0),
 (15997, 74, 27, 1, '21-03-2023', 0),
@@ -17520,9 +17519,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (17407, 110, 29, 1, '21-03-2023', 0),
 (17408, 74, 27, 1, '21-03-2023', 0),
 (17409, 110, 26, 1, '21-03-2023', 0),
-(17410, 74, 26, 1, '21-03-2023', 0);
+(17410, 74, 26, 1, '21-03-2023', 0),
+(17411, 74, 27, 1, '21-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(17411, 74, 27, 1, '21-03-2023', 0),
 (17412, 74, 28, 1, '21-03-2023', 0),
 (17413, 73, 28, 1, '21-03-2023', 0),
 (17414, 73, 28, 1, '21-03-2023', 0),
@@ -18938,9 +18937,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (18824, 73, 26, 1, '21-03-2023', 0),
 (18825, 73, 28, 1, '21-03-2023', 0),
 (18826, 110, 30, 1, '21-03-2023', 0),
-(18827, 110, 27, 1, '21-03-2023', 0);
+(18827, 110, 27, 1, '21-03-2023', 0),
+(18828, 74, 36, 1, '21-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(18828, 74, 36, 1, '21-03-2023', 0),
 (18829, 74, 26, 1, '21-03-2023', 0),
 (18830, 74, 26, 1, '21-03-2023', 0),
 (18831, 74, 27, 1, '21-03-2023', 0),
@@ -20356,9 +20355,9 @@ INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `crea
 (20241, 74, 26, 1, '21-03-2023', 0),
 (20242, 73, 30, 1, '21-03-2023', 0),
 (20243, 73, 30, 1, '21-03-2023', 0),
-(20244, 73, 26, 1, '21-03-2023', 0);
+(20244, 73, 26, 1, '21-03-2023', 0),
+(20245, 110, 27, 1, '21-03-2023', 0);
 INSERT INTO `history_rotation_luck` (`id`, `id_user`, `id_item`, `amount`, `created_at`, `status`) VALUES
-(20245, 110, 27, 1, '21-03-2023', 0),
 (20246, 73, 27, 1, '21-03-2023', 0),
 (20247, 110, 27, 1, '21-03-2023', 0),
 (20248, 74, 28, 1, '21-03-2023', 0),
@@ -20626,12 +20625,12 @@ INSERT INTO `inventories` (`id`, `id_user`, `id_item`, `amount`, `status`) VALUE
 (1703157, 74, 31, 1, 1),
 (1703174, 74, 31, 1, 1),
 (1703178, 74, 36, 1, 1),
-(1703179, 74, 36, 1, 1),
-(1703180, 74, 36, 1, 1),
-(1703181, 74, 36, 1, 1),
-(1703182, 74, 36, 1, 1),
-(1703183, 74, 36, 1, 1),
-(1703184, 74, 36, 1, 1),
+(1703179, 74, 115, 1, 0),
+(1703180, 74, 115, 1, 0),
+(1703181, 74, 114, 1, 0),
+(1703182, 74, 114, 1, 1),
+(1703183, 74, 114, 1, 0),
+(1703184, 74, 115, 0, 0),
 (1703185, 74, 36, 1, 1),
 (1703186, 74, 36, 1, 1),
 (1703187, 74, 36, 1, 1),
@@ -68992,7 +68991,9 @@ INSERT INTO `items` (`id`, `name`, `type`, `type_equipment`, `attribute_1`, `att
 (110, 'Mảnh Đá Kinh Mạch', 'hiếm', '', '', '', '', 0, 'https://i.imgur.com/CcuU7EG.png', 0, 1, 0),
 (111, 'Kinh Mạch Lv 1', 'hiếm', '', '', '', '', 0, 'https://i.imgur.com/4hGGxle.gif', 0, 1, 0),
 (112, 'Nón Thượng Cổ +12', 'cực hiếm', 'mu', 'Tấn Công: 50000', 'Phòng Thủ: 50000\r\n', 'Máu: 50000\r\n', 0, 'https://i.imgur.com/lCmeVfk.gif', 1500000000, 1, 0),
-(113, 'Kinh Mạch Lv 2', 'cực hiếm', '', '', '', '', 0, 'https://i.imgur.com/MeHtTT9.gif', 0, 1, 0);
+(113, 'Kinh Mạch Lv 2', 'cực hiếm', '', '', '', '', 0, 'https://i.imgur.com/MeHtTT9.gif', 0, 1, 0),
+(114, 'Kinh mạch 1', 'mạch 1', 'mach', 'Tấn công: 15', '[value-6]', '[value-7]', 0, './public/images/kinhmach/mach1.png', 15000, 1, 0),
+(115, 'Kinh mạch 2', 'mạch 2', 'mach', 'Tấn công: 14', '[value-6]', '[value-7]', 0, './public/images/kinhmach/mach2.png', 15000, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -69033,8 +69034,6 @@ INSERT INTO `items_equiment_weared` (`id`, `id_user`, `id_item`) VALUES
 (87, 74, 31),
 (88, 74, 31),
 (89, 74, 29),
-(90, 74, 36),
-(91, 74, 28),
 (92, 74, 29),
 (93, 74, 28),
 (94, 74, 31),
@@ -69434,59 +69433,60 @@ CREATE TABLE `users` (
   `verify_token` text DEFAULT NULL,
   `image` text DEFAULT NULL,
   `level` int(11) DEFAULT 1,
-  `id_sever` int(11) DEFAULT NULL
+  `id_sever` int(11) DEFAULT NULL,
+  `image_inventory` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Đang đổ dữ liệu cho bảng `users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `password`, `email`, `name`, `coin`, `verify_token`, `image`, `level`, `id_sever`) VALUES
-(66, 'thienha', '123123', 'kawasakisga@gmail.com', 'Thiên Tru', 308000, NULL, '', 1, 1),
-(67, 'admin1', '$2y$10$2hNZ8SF7wrzxZoTACq.0lOCa4EmYT5p598N.eqOB4tPDcERJ0VArG', NULL, 'Thiên Long', 0, NULL, '', 4, 1),
-(68, 'admin2', '$2y$10$QE0QpyZemnzuh8LKe8e7te5EBS84ZrCqDgJxJ7mud6iZS5kWvv2tK', NULL, 'Luân đạo', 0, NULL, '', 8, 2),
-(69, 'admin555', '$2y$10$67JqPfDI4es3OdW/SDWAP.0T0AT0Rn6ONpj0B0L3j0PwChO5rKmy.', NULL, 'admin123', 0, NULL, './public/images/avatar/noavatar.png', 3, 3),
-(70, 'admin123', '$2y$10$EZ66epVB9bActGGbpKRK5Olxt/sDg8.4Tb/V.WzdKSwsvplxQPWyS', NULL, 'Thiên Long1', 0, NULL, './public/images/avatar/noavatar.png', 1, 1),
-(71, 'admin1234', '$2y$10$cy8mntHteZSa9vS8OTgmsOjI4Q/gNyokGWKddlwf3BxqqlCJoRFYe', NULL, 'Thiên Long12', 40, NULL, './public/images/avatar/noavatar.png', 1, 1),
-(72, 'admin12345', '$2y$10$uMFQ4rQ31QMnapf3Xy7qW.t7VL9WcGatUzeNKgHMmrssC8/WXfyeS', NULL, 'Thiên Long1255', 0, NULL, './public/images/avatar/1.jpg', 1, 1),
-(73, 'Lucifer', '123123', NULL, 'BáChủDươngChâu', 104720, NULL, 'https://i.imgur.com/zIIAC0a.png', 13, 1),
-(74, 'ACTim', 'Tim123@', NULL, 'BáChủLâmAn', 63000, NULL, 'https://i.imgur.com/OYM2yeh.png', 13, 1),
-(75, 'Calius', '$2y$10$R6BSglwdvGc3k3MhvKMSoeZ7iNxbm47RxZbUdd9JVzb.8F1kqREMu', NULL, 'Calius', 0, NULL, './public/images/avatar/1.jpg', 15, 1),
-(76, 'S-HyQuan', '$2y$10$GtAQFoi66QExdX152EJmAuDRJLKQAgnW9q.qWy/jcEdAUFX8xE9i2', NULL, 'S-HyQuan', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(77, 'NgọcDiệpKimChi', '$2y$10$MikM14FOv732OI0c/oiO/OLvgAvpCR2cmuMZ6qdIh6fCUP9/VSiGC', NULL, 'NgọcDiệpKimChi', 0, NULL, './public/images/avatar/1.jpg', 11, 1),
-(78, 'TuyếtLinhĐan', '$2y$10$ak7TqWMfKBRyqK9vCt.YpO8Bd27kL4FQRllMs2TnrZVl0dB4d.O7G', NULL, 'TuyếtLinhĐan', 0, NULL, './public/images/avatar/1.jpg', 10, 1),
-(79, 'NothingToSay', '$2y$10$M0ZIusqxrUz/jw2FAf5L7uYCugJyUcQz4.98mi7rXDx7SlwtmMHr2', NULL, 'NothingToSay', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(80, 'HạTiểuQuỳnh', '$2y$10$bPHJsyFtMI0HtGrl4jxBlOPyjeB351lsq8yyL0Gvk1jxbu5vmkj.u', NULL, 'BáChủĐạiLý', 0, NULL, './public/images/avatar/1.jpg', 14, 1),
-(81, 'Gem-Over', '$2y$10$JShHCvsnyVhAG5H/PpPmSeqjXqYA6fQGaPxC9tHqINhzyq4kCOrye', NULL, 'Gem-Over', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(82, 'Càn-Long-Đế', '$2y$10$kSfaDIT9mSJ5.Mn0RIxpPOgxySW0woNogmjvXwqDjVxeRa./GiNyq', NULL, 'Càn-Long-Đế', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(83, '-Eros-', '$2y$10$jBprdq/ennRZvNOVaJ9kguB4AhZVJM62z2mT/OPUX.QobwaJjg9X2', NULL, '-Eros-', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(84, 'ThíchOhYeah', '$2y$10$HsoEXd4u7vEIfM0s.qIvAe9uwjSuV0AAGsd62yLZmhwK9OEMxwKae', NULL, 'ThíchOhYeah', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(85, 'MissNeko', '$2y$10$wEKOsy7c2srxkT83ldg2E..AoBLLKjTMDJw9nW6hFt1VHNoNwJ4QK', NULL, 'Miss Neko', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(86, 'TàiPhệt', '$2y$10$yn3dgryt5ef7UXoE.GPkTeNI0iwsOgYt9hnq0vY7VARHFoXwPsPNm', NULL, 'Tài Phệt', 0, NULL, './public/images/avatar/1.jpg', 12, 1),
-(87, 'QuỷCốcTử', '$2y$10$eovJFUXawZx8KaoIzmoTjugiLWzb2YvZ3jy6sd3Ur55hsyq4aYoEi', NULL, 'QuỷCốcTử', 0, NULL, './public/images/avatar/1.jpg', 12, 1),
-(88, 'ACSifu', '$2y$10$qYqHwNekxbNTpL6vsejc5O7hs6kb9haQEsQ7Iu3Zw6WmrBnjveeNm', NULL, 'BáChủThànhĐô', 0, NULL, './public/images/avatar/1.jpg', 10, 1),
-(89, 'ViệtAnhNg', '$2y$10$.6hGpDhcOwIbsgkBEjEoX.eNhpvHeqdrKQ4fVBcB9u5ubuHdYLpiC', NULL, 'ViệtAnhNg', 0, NULL, './public/images/avatar/1.jpg', 8, 1),
-(90, 'Helios', '$2y$10$vvDJx1qcCQJsJ4Xn7SO9YebTBzGVSAzBbnGVUsCQNJqE5jV7Ne2QO', NULL, 'Helios', 0, NULL, './public/images/avatar/1.jpg', 11, 1),
-(91, 'YêuLàChịch', '$2y$10$HjqHmYTDCpbYv5uTKuD6jOBDawQZgJ7eMV0Tt987ZpNSVz3dcz4p2', NULL, 'YêuLàChịch', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(92, 'DânThường', '$2y$10$hbshCkAaNoEixn2Mt4JuNuSgM6ZmgWJjJbfKtobVxfWVra.Ln4Wn2', NULL, 'Dân Thường', 0, NULL, './public/images/avatar/1.jpg', 15, 1),
-(93, 'TuyếtLinh', '$2y$10$A3iW56x9x7kep2nZ3rGnH.C94XoEYh65POIEjSKq7sKt0Xr48Ogj.', NULL, 'Tuyết Linh', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(94, 'MilkTea', '$2y$10$7dMlNkFIVlQddh9Ee7fw4eayFHnRtFGj.Smh8SJ6rdiUCpQl1Awne', NULL, 'MilkTea', 0, NULL, './public/images/avatar/1.jpg', 10, 1),
-(95, 'XoàiXoài', '$2y$10$PNUKfYlTfKfMrHUSJOjeiO6NhknL1Bie31E/bw3DT8k2WH9goF9AS', NULL, 'XoàiXoài', 0, NULL, './public/images/avatar/1.jpg', 14, 1),
-(96, 'ACLight', '$2y$10$yMtb49zWt8Y7IrVhaz5McO284sZjR3QfnKmyHhqRMfDfOKnABfdGO', NULL, 'AC Light', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(97, 'LÁCHÀBỒN', '$2y$10$oU5MCHGOZ50LKxeZhXztduAIDkut5QNicqZO9P.wCESKZ6rIT5OG2', NULL, 'LÁCHÀBỒN', 0, NULL, './public/images/avatar/1.jpg', 8, 1),
-(98, 'ACKizela', '$2y$10$eFYcMnh6uWZg24zT1fjaKuPqcAAri.WrvyOGbF/l3EKOdP19ByKxy', NULL, 'BáChủBiệnKinh', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(99, 'ACBlitzh', '$2y$10$QhtsRc1DsP3fs1t36syX4.uwbs7QVL7F1yzs.KLp4.ZySmO9DTSRe', NULL, 'BáChủPhượngTường', 0, NULL, './public/images/avatar/1.jpg', 10, 1),
-(100, 'KingFergus', '$2y$10$J4kp2leOHfLhmTylO6M5deu5T/t.Es7j5yxGWOENTtxvLNS4VhnUu', NULL, 'KingFergus', 0, NULL, './public/images/avatar/1.jpg', 11, 1),
-(101, 'NhấtBáchCủ', '$2y$10$Z9wKVLjaiHkqvjB70CA1bu9np6y1JkhZb2zKAHhsbxiXXQtHNzhAW', NULL, 'NhấtBáchCủ', 0, NULL, './public/images/avatar/1.jpg', 7, 1),
-(102, 'LúXinh', '$2y$10$Z0Jv26Wm5LSh1yNZcqvgZeHAbUuSFObO5vx5Bkq9NGjLuFI/j9jti', NULL, 'LúXinh', 0, NULL, './public/images/avatar/1.jpg', 9, 1),
-(103, 'NSNDzMơMơ', '$2y$10$h3FS6r/7w5UnCxqBmUVJduTMOijkyP711SJK2QVgY5XCt.Pcc2n1i', NULL, 'NSNDzMơMơ', 0, NULL, './public/images/avatar/1.jpg', 10, 1),
-(104, 'misuke', '$2y$10$sV3zkTMjzHngxW3u0hEL7.MZTIWWD4liL0ZK6ODVy.FrxdL/J0F3m', NULL, 'Misuke', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(105, 'Simple', '$2y$10$YiJUPmJI1Rgk4dP4TxiylunoyZHe4vqAylB0ZhDEN6X9SBD8V.JYO', NULL, 'Simple', 0, NULL, 'https://i.imgur.com/DchY9Mc.png', 1, 1),
-(106, 'ACPuPu', '$2y$10$GC5kkvBqj2GUQEaN7Z.Jz.61P/HrphpO9gJQX9OAMzAdhsGCKk5fu', NULL, 'ACPuPu', 0, NULL, './public/images/avatar/1.jpg', 11, 1),
-(107, 'SốngKhépKín', '$2y$10$ymgp7lofbUMHgds//Zf6.OUc.WKJUtxucpDvJwu/Pmsz4beBfh.T2', NULL, 'SốngKhépKín', 0, NULL, './public/images/avatar/1.jpg', 14, 1),
-(108, 'BROAoShin', '$2y$10$G2k5Db4DJQir4PUz4wmOZuXRx90cD5zcWy8s5zp5tHJgyl00OEAyS', NULL, 'BáChủTươngDương', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(109, '974Mei', '$2y$10$XwyMiJYXFtKkAJuAZ9.YL.eS4DrIYqlqAQify/G7RQjAFdstw9qvC', NULL, '974 Mei', 0, NULL, './public/images/avatar/1.jpg', 13, 1),
-(110, 'TiểuTàThần', 'tieutathan1', NULL, 'Tiểu Tà Thần', 827211, NULL, 'https://i.imgur.com/gQar27t.png', 16, 1);
+INSERT INTO `users` (`id`, `user_name`, `password`, `email`, `name`, `coin`, `verify_token`, `image`, `level`, `id_sever`, `image_inventory`) VALUES
+(66, 'thienha', '123123', 'kawasakisga@gmail.com', 'Thiên Tru', 308000, NULL, '', 1, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(67, 'admin1', '$2y$10$2hNZ8SF7wrzxZoTACq.0lOCa4EmYT5p598N.eqOB4tPDcERJ0VArG', NULL, 'Thiên Long', 0, NULL, '', 4, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(68, 'admin2', '$2y$10$QE0QpyZemnzuh8LKe8e7te5EBS84ZrCqDgJxJ7mud6iZS5kWvv2tK', NULL, 'Luân đạo', 0, NULL, '', 8, 2, 'https://i.imgur.com/GkH3Csa.png'),
+(69, 'admin555', '$2y$10$67JqPfDI4es3OdW/SDWAP.0T0AT0Rn6ONpj0B0L3j0PwChO5rKmy.', NULL, 'admin123', 0, NULL, './public/images/avatar/noavatar.png', 3, 3, 'https://i.imgur.com/GkH3Csa.png'),
+(70, 'admin123', '$2y$10$EZ66epVB9bActGGbpKRK5Olxt/sDg8.4Tb/V.WzdKSwsvplxQPWyS', NULL, 'Thiên Long1', 0, NULL, './public/images/avatar/noavatar.png', 1, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(71, 'admin1234', '$2y$10$cy8mntHteZSa9vS8OTgmsOjI4Q/gNyokGWKddlwf3BxqqlCJoRFYe', NULL, 'Thiên Long12', 40, NULL, './public/images/avatar/noavatar.png', 1, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(72, 'admin12345', '$2y$10$uMFQ4rQ31QMnapf3Xy7qW.t7VL9WcGatUzeNKgHMmrssC8/WXfyeS', NULL, 'Thiên Long1255', 0, NULL, './public/images/avatar/1.jpg', 1, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(73, 'Lucifer', '123123', NULL, 'BáChủDươngChâu', 104720, NULL, 'https://i.imgur.com/zIIAC0a.png', 13, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(74, 'ACTim', 'Tim123@', NULL, 'BáChủLâmAn', 63000, NULL, 'https://i.imgur.com/OYM2yeh.png', 13, 1, 'https://i.imgur.com/GkH3Csa.png'),
+(75, 'Calius', '$2y$10$R6BSglwdvGc3k3MhvKMSoeZ7iNxbm47RxZbUdd9JVzb.8F1kqREMu', NULL, 'Calius', 0, NULL, './public/images/avatar/1.jpg', 15, 1, NULL),
+(76, 'S-HyQuan', '$2y$10$GtAQFoi66QExdX152EJmAuDRJLKQAgnW9q.qWy/jcEdAUFX8xE9i2', NULL, 'S-HyQuan', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(77, 'NgọcDiệpKimChi', '$2y$10$MikM14FOv732OI0c/oiO/OLvgAvpCR2cmuMZ6qdIh6fCUP9/VSiGC', NULL, 'NgọcDiệpKimChi', 0, NULL, './public/images/avatar/1.jpg', 11, 1, NULL),
+(78, 'TuyếtLinhĐan', '$2y$10$ak7TqWMfKBRyqK9vCt.YpO8Bd27kL4FQRllMs2TnrZVl0dB4d.O7G', NULL, 'TuyếtLinhĐan', 0, NULL, './public/images/avatar/1.jpg', 10, 1, NULL),
+(79, 'NothingToSay', '$2y$10$M0ZIusqxrUz/jw2FAf5L7uYCugJyUcQz4.98mi7rXDx7SlwtmMHr2', NULL, 'NothingToSay', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(80, 'HạTiểuQuỳnh', '$2y$10$bPHJsyFtMI0HtGrl4jxBlOPyjeB351lsq8yyL0Gvk1jxbu5vmkj.u', NULL, 'BáChủĐạiLý', 0, NULL, './public/images/avatar/1.jpg', 14, 1, NULL),
+(81, 'Gem-Over', '$2y$10$JShHCvsnyVhAG5H/PpPmSeqjXqYA6fQGaPxC9tHqINhzyq4kCOrye', NULL, 'Gem-Over', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(82, 'Càn-Long-Đế', '$2y$10$kSfaDIT9mSJ5.Mn0RIxpPOgxySW0woNogmjvXwqDjVxeRa./GiNyq', NULL, 'Càn-Long-Đế', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(83, '-Eros-', '$2y$10$jBprdq/ennRZvNOVaJ9kguB4AhZVJM62z2mT/OPUX.QobwaJjg9X2', NULL, '-Eros-', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(84, 'ThíchOhYeah', '$2y$10$HsoEXd4u7vEIfM0s.qIvAe9uwjSuV0AAGsd62yLZmhwK9OEMxwKae', NULL, 'ThíchOhYeah', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(85, 'MissNeko', '$2y$10$wEKOsy7c2srxkT83ldg2E..AoBLLKjTMDJw9nW6hFt1VHNoNwJ4QK', NULL, 'Miss Neko', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(86, 'TàiPhệt', '$2y$10$yn3dgryt5ef7UXoE.GPkTeNI0iwsOgYt9hnq0vY7VARHFoXwPsPNm', NULL, 'Tài Phệt', 0, NULL, './public/images/avatar/1.jpg', 12, 1, NULL),
+(87, 'QuỷCốcTử', '$2y$10$eovJFUXawZx8KaoIzmoTjugiLWzb2YvZ3jy6sd3Ur55hsyq4aYoEi', NULL, 'QuỷCốcTử', 0, NULL, './public/images/avatar/1.jpg', 12, 1, NULL),
+(88, 'ACSifu', '$2y$10$qYqHwNekxbNTpL6vsejc5O7hs6kb9haQEsQ7Iu3Zw6WmrBnjveeNm', NULL, 'BáChủThànhĐô', 0, NULL, './public/images/avatar/1.jpg', 10, 1, NULL),
+(89, 'ViệtAnhNg', '$2y$10$.6hGpDhcOwIbsgkBEjEoX.eNhpvHeqdrKQ4fVBcB9u5ubuHdYLpiC', NULL, 'ViệtAnhNg', 0, NULL, './public/images/avatar/1.jpg', 8, 1, NULL),
+(90, 'Helios', '$2y$10$vvDJx1qcCQJsJ4Xn7SO9YebTBzGVSAzBbnGVUsCQNJqE5jV7Ne2QO', NULL, 'Helios', 0, NULL, './public/images/avatar/1.jpg', 11, 1, NULL),
+(91, 'YêuLàChịch', '$2y$10$HjqHmYTDCpbYv5uTKuD6jOBDawQZgJ7eMV0Tt987ZpNSVz3dcz4p2', NULL, 'YêuLàChịch', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(92, 'DânThường', '$2y$10$hbshCkAaNoEixn2Mt4JuNuSgM6ZmgWJjJbfKtobVxfWVra.Ln4Wn2', NULL, 'Dân Thường', 0, NULL, './public/images/avatar/1.jpg', 15, 1, NULL),
+(93, 'TuyếtLinh', '$2y$10$A3iW56x9x7kep2nZ3rGnH.C94XoEYh65POIEjSKq7sKt0Xr48Ogj.', NULL, 'Tuyết Linh', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(94, 'MilkTea', '$2y$10$7dMlNkFIVlQddh9Ee7fw4eayFHnRtFGj.Smh8SJ6rdiUCpQl1Awne', NULL, 'MilkTea', 0, NULL, './public/images/avatar/1.jpg', 10, 1, NULL),
+(95, 'XoàiXoài', '$2y$10$PNUKfYlTfKfMrHUSJOjeiO6NhknL1Bie31E/bw3DT8k2WH9goF9AS', NULL, 'XoàiXoài', 0, NULL, './public/images/avatar/1.jpg', 14, 1, NULL),
+(96, 'ACLight', '$2y$10$yMtb49zWt8Y7IrVhaz5McO284sZjR3QfnKmyHhqRMfDfOKnABfdGO', NULL, 'AC Light', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(97, 'LÁCHÀBỒN', '$2y$10$oU5MCHGOZ50LKxeZhXztduAIDkut5QNicqZO9P.wCESKZ6rIT5OG2', NULL, 'LÁCHÀBỒN', 0, NULL, './public/images/avatar/1.jpg', 8, 1, NULL),
+(98, 'ACKizela', '$2y$10$eFYcMnh6uWZg24zT1fjaKuPqcAAri.WrvyOGbF/l3EKOdP19ByKxy', NULL, 'BáChủBiệnKinh', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(99, 'ACBlitzh', '$2y$10$QhtsRc1DsP3fs1t36syX4.uwbs7QVL7F1yzs.KLp4.ZySmO9DTSRe', NULL, 'BáChủPhượngTường', 0, NULL, './public/images/avatar/1.jpg', 10, 1, NULL),
+(100, 'KingFergus', '$2y$10$J4kp2leOHfLhmTylO6M5deu5T/t.Es7j5yxGWOENTtxvLNS4VhnUu', NULL, 'KingFergus', 0, NULL, './public/images/avatar/1.jpg', 11, 1, NULL),
+(101, 'NhấtBáchCủ', '$2y$10$Z9wKVLjaiHkqvjB70CA1bu9np6y1JkhZb2zKAHhsbxiXXQtHNzhAW', NULL, 'NhấtBáchCủ', 0, NULL, './public/images/avatar/1.jpg', 7, 1, NULL),
+(102, 'LúXinh', '$2y$10$Z0Jv26Wm5LSh1yNZcqvgZeHAbUuSFObO5vx5Bkq9NGjLuFI/j9jti', NULL, 'LúXinh', 0, NULL, './public/images/avatar/1.jpg', 9, 1, NULL),
+(103, 'NSNDzMơMơ', '$2y$10$h3FS6r/7w5UnCxqBmUVJduTMOijkyP711SJK2QVgY5XCt.Pcc2n1i', NULL, 'NSNDzMơMơ', 0, NULL, './public/images/avatar/1.jpg', 10, 1, NULL),
+(104, 'misuke', '$2y$10$sV3zkTMjzHngxW3u0hEL7.MZTIWWD4liL0ZK6ODVy.FrxdL/J0F3m', NULL, 'Misuke', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(105, 'Simple', '$2y$10$YiJUPmJI1Rgk4dP4TxiylunoyZHe4vqAylB0ZhDEN6X9SBD8V.JYO', NULL, 'Simple', 0, NULL, 'https://i.imgur.com/DchY9Mc.png', 1, 1, NULL),
+(106, 'ACPuPu', '$2y$10$GC5kkvBqj2GUQEaN7Z.Jz.61P/HrphpO9gJQX9OAMzAdhsGCKk5fu', NULL, 'ACPuPu', 0, NULL, './public/images/avatar/1.jpg', 11, 1, NULL),
+(107, 'SốngKhépKín', '$2y$10$ymgp7lofbUMHgds//Zf6.OUc.WKJUtxucpDvJwu/Pmsz4beBfh.T2', NULL, 'SốngKhépKín', 0, NULL, './public/images/avatar/1.jpg', 14, 1, NULL),
+(108, 'BROAoShin', '$2y$10$G2k5Db4DJQir4PUz4wmOZuXRx90cD5zcWy8s5zp5tHJgyl00OEAyS', NULL, 'BáChủTươngDương', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(109, '974Mei', '$2y$10$XwyMiJYXFtKkAJuAZ9.YL.eS4DrIYqlqAQify/G7RQjAFdstw9qvC', NULL, '974 Mei', 0, NULL, './public/images/avatar/1.jpg', 13, 1, NULL),
+(110, 'TiểuTàThần', 'tieutathan1', NULL, 'Tiểu Tà Thần', 827211, NULL, 'https://i.imgur.com/gQar27t.png', 16, 1, NULL);
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -69602,13 +69602,13 @@ ALTER TABLE `inventories`
 -- AUTO_INCREMENT cho bảng `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=116;
 
 --
 -- AUTO_INCREMENT cho bảng `items_equiment_weared`
 --
 ALTER TABLE `items_equiment_weared`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=447;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=451;
 
 --
 -- AUTO_INCREMENT cho bảng `sever`

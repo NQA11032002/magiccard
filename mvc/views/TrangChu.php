@@ -348,6 +348,8 @@ if (isset($_SESSION["logined"])) {?>
     <script type="text/javascript" src="./public/js/shop.js"></script>
     <script type="text/javascript" src="./public/js/gatcha.js"></script>
     <script type="text/javascript" src="./public/js/guild.js"></script>
+    <script type="text/javascript" src="./public/js/meridian.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 </body>
 

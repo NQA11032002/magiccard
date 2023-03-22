@@ -742,11 +742,11 @@ $(document).ready(function () {
 
 	//Load xếp hạng ải
 	$(".ranking__boss").click(function () {
-	    rankGuild = 1;
-    	 rankPersonally = 1;
-    	 rankLucky = 1;
-    	 rankFriends = 1;
-    	 rankBoss = 1;
+		rankGuild = 1;
+		rankPersonally = 1;
+		rankLucky = 1;
+		rankFriends = 1;
+		rankBoss = 1;
 		loadRankBoss(0);
 		resetActiveRank();
 		$(this).addClass("active");
@@ -814,11 +814,11 @@ $(document).ready(function () {
 	loadRankGuid(0);
 
 	$(".ranking__guid").click(function () {
-	     rankGuild = 1;
-    	 rankPersonally = 1;
-    	 rankLucky = 1;
-    	 rankFriends = 1;
-    	 rankBoss = 1;
+		rankGuild = 1;
+		rankPersonally = 1;
+		rankLucky = 1;
+		rankFriends = 1;
+		rankBoss = 1;
 		loadRankGuid(0);
 		resetActiveRank();
 		$(this).addClass("active");
@@ -884,11 +884,11 @@ $(document).ready(function () {
 
 	//xếp hạng đồng hành
 	$(".ranking__friends").click(function () {
-	     rankGuild = 1;
-    	 rankPersonally = 1;
-    	 rankLucky = 1;
-    	 rankFriends = 1;
-    	 rankBoss = 1;
+		rankGuild = 1;
+		rankPersonally = 1;
+		rankLucky = 1;
+		rankFriends = 1;
+		rankBoss = 1;
 		loadRankFriends(0);
 		resetActiveRank();
 		$(this).addClass("active");
@@ -958,11 +958,11 @@ $(document).ready(function () {
 	let totalPagePersonally = 10;
 
 	$(".ranking__personally").click(function () {
-	     rankGuild = 1;
-    	 rankPersonally = 1;
-    	 rankLucky = 1;
-    	 rankFriends = 1;
-    	 rankBoss = 1;
+		rankGuild = 1;
+		rankPersonally = 1;
+		rankLucky = 1;
+		rankFriends = 1;
+		rankBoss = 1;
 		resetActivePagination("active_rank");
 		loadRankingsPersonally();
 		createPaginationPersonally();
@@ -984,6 +984,7 @@ $(document).ready(function () {
                            <tbody>`;
 
 			let obj = JSON.parse(response);
+			console.log(obj);
 			obj.forEach(p => {
 				let power = 0;
 
@@ -998,8 +999,15 @@ $(document).ready(function () {
 					html += `<tr>`;
 				}
 				html += `<td>` + rankPersonally + `</td> 
-						<td>` + p.name + `</td> 
-						<td>` + p.level + `</td>
+						<td class='d-flex align-items-center'>
+							<img class='ranking_img' src="`+ p.image + `"></img>
+							<p>` + p.name + `</p>
+						</td> 
+						<td class="column-vip" style='background-image: url(./public/images/vip.png) !important;
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: auto;
+						padding: 5px;'>` + p.level + `</td>
                         <td>` + power + `</td>
                         <td>` + p.sever + `</td>
                     </tr>`;
@@ -1019,49 +1027,49 @@ $(document).ready(function () {
 			let obj = JSON.parse(response);
 			let html = ``;
 			let amountPage = Math.floor(Number(obj.length / totalPagePersonally));
-	        let rank_personally = 1;
+			let rank_personally = 1;
 
-//				for (let i = 0; i < amountPage; i++) {
-        
-					//if(i< 3)
-					//{
-					    //if (i > 0) {
-					    	//rank_personally = i + 10;
-					    //}   
+			//				for (let i = 0; i < amountPage; i++) {
 
-					    html += `<p class="pagination" data-rank_personally=1 data-page=0> 0</p> 
+			//if(i< 3)
+			//{
+			//if (i > 0) {
+			//rank_personally = i + 10;
+			//}   
+
+			html += `<p class="pagination" data-rank_personally=1 data-page=0> 0</p> 
         					    <p class="pagination" data-rank_personally=11 data-page=1> 1</p>
         					    <p class="pagination" data-rank_personally=21 data-page=2> 2</p> `;
-					//}
-				//}
+			//}
+			//}
 
-				$(".paginations").html(html);
+			$(".paginations").html(html);
 
-				let paginations = document.querySelectorAll(".pagination");
+			let paginations = document.querySelectorAll(".pagination");
 
-				paginations.forEach(p => {
-					p.addEventListener("click", function (e) {
-						paginations.forEach(p => {
-							p.classList.remove("active_rank");
-						});
-						rankPersonally = p.getAttribute('data-rank_personally')
-                        console.log(rankPersonally)
-						e.target.classList.toggle("active_rank");
-						pagePersonally = p.getAttribute("data-page");
-						loadRankingsPersonally();
+			paginations.forEach(p => {
+				p.addEventListener("click", function (e) {
+					paginations.forEach(p => {
+						p.classList.remove("active_rank");
 					});
+					rankPersonally = p.getAttribute('data-rank_personally')
+					console.log(rankPersonally)
+					e.target.classList.toggle("active_rank");
+					pagePersonally = p.getAttribute("data-page");
+					loadRankingsPersonally();
 				});
-			
+			});
+
 		});
 	}
 
 	//load ranking vòng quay
 	$('.ranking__lucky').click(function () {
-	      rankGuild = 1;
-    	 rankPersonally = 1;
-    	 rankLucky = 1;
-    	 rankFriends = 1;
-    	 rankBoss = 1;
+		rankGuild = 1;
+		rankPersonally = 1;
+		rankLucky = 1;
+		rankFriends = 1;
+		rankBoss = 1;
 		resetActivePagination("active_lucky");
 		createPaginationLucky();
 		resetActiveRank();

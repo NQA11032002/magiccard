@@ -3,7 +3,7 @@ class rankingsModel extends Database
 {
     public function loadRankingPersonally($page = null, $totalPage = null)
     {
-        $query = "SELECT users.id,users.name,Sum(items.power) as power, users.level, sever.name as sever
+        $query = "SELECT users.id,users.name,Sum(items.power) as power, users.level, sever.name as sever, image
         FROM `users`
         left JOIN items_equiment_weared as wear on wear.id_user = users.id
         left join items on wear.id_item = items.id

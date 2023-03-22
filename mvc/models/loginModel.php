@@ -3,7 +3,7 @@ class loginModel extends Database
 {
     public function login($user, $password)
     {
-        $query = "SELECT sum(items.power) as power,users.id, users.user_name, users.email, users.name, users.coin, users.verify_token, users.image
+        $query = "SELECT sum(items.power) as power,users.id, users.user_name, users.email, users.name, users.coin, users.verify_token, users.image,users.image_inventory
                   FROM users
                   LEFT JOIN items_equiment_weared as w on w.id_user = users.id
                   LEFT JOIN items on w.id_item = items.id
