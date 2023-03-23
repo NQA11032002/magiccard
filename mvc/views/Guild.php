@@ -3,7 +3,7 @@
 
 <section class="guild_container">
     <div class="guilds container m-0">
-        <h1 class="text-center h1 title_guild">Thành viên bang hội</h1>
+        <h1 class="text-center h1 title_guild">Ăn Chơi</h1>
 
         <table class="table guild_table">
             <thead>

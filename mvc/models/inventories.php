@@ -7,7 +7,7 @@ class inventories extends Database
                         items.name, items.type, items.attribute_1, items.attribute_2, items.attribute_3, items.img
                   FROM `inventories` as inven
                   join items on inven.id_item = items.id
-                  WHERE inven.id_user = '" . $id_user . "' and inven.status = 0
+                  WHERE inven.id_user = '" . $id_user . "' and inven.status = 0 and items.type_equipment != 'mach'
                   GROUP BY id_item";
 
         $result = mysqli_query($this->con, $query);

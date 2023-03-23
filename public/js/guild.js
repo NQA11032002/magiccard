@@ -14,7 +14,10 @@ $(document).ready(function () {
                 }
                 html += `<tr>
                             <th scope="row">`+ i++ + `</th>
-                            <td>`+ element.user_name + `</td>
+                            <td class='d-flex align-items-center'>
+    							<img class='ranking_img' src="`+ element.image + `"></img>
+    							<p>` + element.user_name + `</p>
+						    </td> 
                             <td>`+ power + `</td>
                             <td>`+ element.role + `</td>
                         </tr>`;

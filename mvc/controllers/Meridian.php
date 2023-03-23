@@ -43,7 +43,19 @@ class Meridian extends Controller
             $id_item = isset($_POST["id_item"]) ? $_POST["id_item"] : null;
 
             $result = $this->model->updateStatusMeridianToWear($id_user, $id_inventory, $id_item);
+            echo $result;
+        }
+    }
 
+    //remove item wear meridian get out inventory
+    public function takeOfMeridian()
+    {
+        if (isset($_SESSION["logined"])) {
+            $id_user = $_SESSION["logined"][0]->id;
+            $id = isset($_POST["id"]) ? $_POST["id"] : null;
+            $id_item = isset($_POST["id_item"]) ? $_POST["id_item"] : null;
+
+            $result = $this->model->takeOfMeridian($id_user, $id, $id_item);
             echo $result;
         }
     }

@@ -4,16 +4,20 @@
 	margin: 0 auto;
 }
 .lottery_box {
-	position: relative;
-	width: 730px;
-	height: 690px;
-	margin: 300px 0 0 250px;
+    position: sticky;
+    width: 730px;
+    height: 690px;
+    margin: auto;
 }
 .lottery_img_wrap {
-	position: relative;
-	width: 703px;
-	left: 150px;
-	height: 690px;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/xWREFd6.png);
+    position: sticky;
+    width: 972px;
+    left: 150px;
+    margin-top: 120px;
+    margin-left: -120px;
+    height: 857px;
 }
 .lottery_img_wrap span {
 	position: absolute;
@@ -21,63 +25,63 @@
 	height: 100px;
 }
 .lottery_img_wrap .p1 {
-	left: 0;
-	top: 0;
+	left: 85px;
+    top: 173px;
 	background: url(https://i.imgur.com/15uLY8t.png);
 }
 .lottery_img_wrap .p2 {
-	left: 180px;
-	top: 0;
+	left: 211px;
+    top: 43px;
 	background: url(https://i.imgur.com/HYiaCke.png);
 }
 .lottery_img_wrap .p3 {
-	left: 359px;
-	top: 0;
+	    left: 431px;
+    top: -21px;
 	background: url(https://i.imgur.com/WNsK3LX.png);
 }
 .lottery_img_wrap .p4 {
-	left: 539px;
-	top: 0px;
+	left: 658px;
+    top: 43px;
 	background: url(https://i.imgur.com/iv7yIZX.png);
 }
 .lottery_img_wrap .p5 {
-	left: 539px;
-	top: 176px;
+	left: 764px;
+    top: 192px;
 	background: url(https://i.imgur.com/1v7OnBR.png);
 }
 .lottery_img_wrap .p6 {
-	left: 539px;
-	top: 353px;
+left: 844px;
+    top: 376px;
 	background: url(https://i.imgur.com/5CQRU3P.png);
 }
 .lottery_img_wrap .p7 {
-	left: 539px;
-	top: 530px;
+	left: 774px;
+    top: 551px;
 	background: url(https://i.imgur.com/S96JwbJ.png);
 }
 .lottery_img_wrap .p8 {
-	left: 359px;
-	top: 530px;
+    left: 660px;
+    top: 719px;
 	background: url(https://i.imgur.com/txTDGX4.png);
 }
 .lottery_img_wrap .p9 {
-	left: 180px;
-	top: 530px;
+	left: 435px;
+    top: 765px;
 	background: url(https://i.imgur.com/K7nWZOt.png);
 }
 .lottery_img_wrap .p10 {
-	left: 0;
-	top: 530px;
+left: 212px;
+    top: 721px;
 	background: url(https://i.imgur.com/grUHBaY.png);
 }
 .lottery_img_wrap .p11 {
-	left: 0;
-	top: 353px;
+left: 81px;
+    top: 572px;
 	background: url(https://i.imgur.com/CX7DQlH.png);
 }
 .lottery_img_wrap .p12 {
-	left: 0;
-	top: 178px;
+	left: 30px;
+    top: 373px;
 	background: url(https://i.imgur.com/Nnk9zhp.png);
 }
 .lottery_img_wrap .p1.on {
@@ -125,26 +129,26 @@
 	background: url(https://mhxzx.wanmei.com/hd/2104/net/fuli/images/lottery_light.png);
 }
 .btn_lottery {
-	position: absolute;
-	border: none;
-	width: 417px;
-	height: 372px;
-	left: 260px;
-	top: 90px;
-	background: url(https://i.imgur.com/G0duUQA.png);
-	cursor: pointer;
-	text-indent: -999px;
-	overflow: hidden;
+    position: absolute;
+        border: none;
+    width: 359px;
+    height: 341px;
+    left: 180px;
+        top: 373px;
+    background: url(https://i.imgur.com/vJ0w6CX.png);
+    cursor: pointer;
+    text-indent: -999px;
+    overflow: hidden;
 }
 .lottery_num {
-	position: absolute;
-	width: 324px;
-	height: 42px;
-	left: 300px;
-	top: 375px;
-	font: normal 30px/42px "Microsoft Yahei";
-	color: #fed564;
-	text-align: center;
+    position: absolute;
+    width: 324px;
+    height: 42px;
+    left: 198px;
+    top: 527px;
+    font: normal 30px/42px "Microsoft Yahei";
+    color: #fed564;
+    text-align: center;
 }
 .lottery_num span {
 	color: #b44725;
@@ -184,13 +188,14 @@
 	text-align: center;
 }
 .active {
+    border-radius: 100px;
 	width: 163px;
 	height: 186px;
-	border-left: 2px solid #ff9900;
-	border-top: 2px solid #ff9900;
-	border-bottom: 2px solid #ff9900;
-	border-right: 2px solid #ff9900;
-	box-shadow: -20px -20px 30px -25px #ff9900, 20px 20px 30px -25px #ff9900, -7px -7px 10px -5px #ff9900, 7px 7px 10px -5px #ff9900, 0 0 13px 4px #ff9900, 0 55px 35px -20px;
+border-left: 2px solid #ff9900;
+    border-top: 2px solid #ff9900;
+    border-bottom: 2px solid #ff9900;
+    border-right: 2px solid #ff9900;
+    box-shadow: -20px -20px 30px -25px #ff9900, 20px 20px 30px -25px #ff9900, -7px -7px 10px -5px #ff9900, 7px 7px 10px -5px #ff9900, 0 0 13px 4px #ff9900, 0 55px 35px -20px;
 }
 .lottery_wrap {
 	display: flex !important;

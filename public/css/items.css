@@ -54,12 +54,11 @@
    display: block;
 }
 .img_item {
-    border-radius: 8px;
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 51px;
-    height: 51px;
+    width: 40px;
+    height: 40px;
     transform: translate(-50%, -50%);
 }
 

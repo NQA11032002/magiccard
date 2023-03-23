@@ -45,8 +45,15 @@ class meridianModel extends Database
 
             $insert = "INSERT INTO `items_equiment_weared` (`id_user`, `id_item`) VALUES ('" . $id_user . "','" . $id_item . "')";
             mysqli_query($this->con, $insert);
-        } else {
-            echo "faile";
         }
+    }
+
+    public function takeOfMeridian($id_user, $id, $id_item)
+    {
+        $query = "DELETE FROM `items_equiment_weared` WHERE id = '" . $id . "' and id_user = '" . $id_user . "'";
+        mysqli_query($this->con, $query);
+
+        $update = "UPDATE `inventories` SET `status`=1 WHERE id_user = '" . $id_user . "' and id_item = '" . $id_item . "'";
+        mysqli_query($this->con, $update);
     }
 }

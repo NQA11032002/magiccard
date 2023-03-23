@@ -184,13 +184,14 @@ body {
 	min-width: 1200px;
 	margin: 0 auto;
 	position: relative;
-	overflow: hidden;
+	overflow-y: auto;
 	max-width: 100%;
 	padding: unset;
 }
+
 .top {
 	width: 100%;
-	height: 1082px;
+	height: 1050px;
 	background: url(https://i.imgur.com/gHhagVL.jpg) center top no-repeat;
 	z-index: 3;
 	position: relative;
@@ -352,11 +353,10 @@ body {
 	z-index: 13;
 }
 .page1 {
-	margin-top: 88px;
-	height: 882px !important;
-	width: 100%;
-	z-index: 1;
-	position: relative;
+    margin-top: -29px;
+    height: 1326px !important;
+    width: 100%;
+    position: relative;
 }
 .tit {
 	width: 1120px;
@@ -742,13 +742,13 @@ body {
 }
 
 .page2 {
-	margin-top: -305px;
-	width: 100%;
-	height: 1171px;
-	overflow: hidden;
-	z-index: 0 !important;
-	position: relative;
-	background: url(https://game.gtimg.cn/images/yxzj/match/wzmnzdg/bg-live.png) no-repeat center top;
+    margin-top: 0px;
+    width: 100%;
+    height: 1300px;
+    overflow: hidden;
+    z-index: 0 !important;
+    position: relative;
+    background: url(https://game.gtimg.cn/images/yxzj/match/wzmnzdg/bg-live.png) no-repeat center top;
 }
 /* .page2bg{width: 100%;height:1820px;overflow: hidden;position: absolute; z-index: 0;} */
 .page3 .tit {
@@ -756,7 +756,7 @@ body {
 }
 .page3 {
 	width: 100%;
-	height: 908px;
+	height: 1589px;
 	overflow: hidden;
 	position: relative;
 	z-index: 2;
@@ -1892,7 +1892,7 @@ body {
 	font-weight: 600;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 80%;
 	color: #eeeeee;
 	background-color: #7373b5;
 	width: 200px;
@@ -2364,36 +2364,34 @@ body {
 	z-index: 1;
 }
 .lottery_wrap {
-	position: absolute;
-	top: 3815px;
-	left: 480px;
-	transform: translateX(-70%);
+    position: sticky;
 }
 .rankings {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	width: 100%;
-	height: 600px;
-	max-width: 70%;
-	position: absolute;
-	top: 2500px;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 980px;
+    max-width: 70%;
+    position: absolute;
+    top: 3135px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .rankings_table {
-	background-image: url(https://i.imgur.com/EXIg9Mf.png);
-	padding: 10px;
-	width: 1282px;
-	height: 560px;
-	margin-top: 0px;
+    background-image: url(https://i.imgur.com/0aCDfoP.png);
+    padding: 10px;
+    width: 1200px;
+    height: 1000px;
+    margin-top: -36px;
 }
 .rankings_table > table {
-	width: 99%;
-	margin-left: 5px;
-	color: #ffff;
-	border-collapse: collapse;
+    width: 99%;
+    margin-left: 5px;
+    margin-top: 160px;
+    color: #ffff;
+    border-collapse: collapse;
 }
 .rankings_table > table > tbody > tr {
 	height: 35px;
@@ -2402,22 +2400,22 @@ body {
 	border-bottom: unset;
 }
 .rankings_table > table > thead > tr > th {
-	font-size: 22px;
-	font-weight: bold;
-	padding: 10px;
-	color: #ffae00;
-	background-image: url(https://game.gtimg.cn/images/yxzj/match/wzmnzdg/sprite-img.png);
-	background-position: -1079px 806px;
-	width: 519px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    color: #ffae00;
+    width: 519px;
+    z-index: 2;
 }
 .rankings_table > table > tbody > tr > td {
-	color: #f3c258;
-	height: 40px;
-	font-size: 18px;
-	text-align: center;
-	padding-left: 11px;
-	padding-right: 5px;
-	font-weight: 600;
+    color: #f3c258;
+    height: 75px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 11px;
+    padding-right: 5px;
+    font-weight: 600;
 }
 .tab-rankins {
 	margin-bottom: 10px;
@@ -2515,12 +2513,13 @@ body {
 	background: url(https://i.imgur.com/eEe71df.png) no-repeat !important;
 }
 .rank_tab {
-	position: absolute;
-	top: -55px;
-	width: 1300px;
-	left: calc(50% - 1300px / 2);
-	display: flex;
-	justify-content: center;
+    background-image: url(https://hd.huya.com/201904activity/img/bg_road_tab_422550a.png);
+    position: absolute;
+    top: 70px;
+    background-size: cover;
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
 .rank_tab__item1 {
 	background-image: url(http://img.zing.vn/products/vltkmax/skin-2022/mainsite/assets/_sprites-common.png);
@@ -2541,18 +2540,15 @@ body {
 	align-content: center;
 	text-align: center;
 	vertical-align: middle;
-	color: #101c37;
+	color: #ebddc3;
 }
 .rank_tab__item {
-	background-image: url(https://game.gtimg.cn/images/yxzj/match/wzmnzdg/sprite-img.png);
-	background-position: 540px 887px;
-	width: 403px;
+	width: 195px;
 	height: 60px;
 	display: flex;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 20px;
 	align-content: center;
 	text-align: center;
 	vertical-align: middle;
@@ -2562,7 +2558,15 @@ body {
 	align-content: center;
 	text-align: center;
 	vertical-align: middle;
-	color: #101c37;
+font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    color: #ebddc3;
+    font-weight: 700;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+    font-style: italic;
 }
 
 .page5 {
@@ -2744,10 +2748,204 @@ body {
 	top: 125px;
 }
 .ranking_img {
-	width: 30px;
-	height: 30px;
-	object-fit: cover;
-	border-radius: 100%;
-	border: 1px solid rgb(215 198 198 / 70%);
-	margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid rgb(215 198 198 / 70%);
+    margin-right: 10px;
+}
+.boss_rank_wrap {
+    width: 1270px;
+    height: 1223px;
+    position: relative;
+    background: url(//hd.huya.com/201904activity/img/bg_boss_rank_b85c108.png) no-repeat;
+    margin: 0 auto;
+    padding: 100px 34px 76px 35px;
+    margin-top: 29px
+}
+
+.boss_rank_wrap .god {
+    position: relative;
+    float: left;
+    width: 198px;
+    height: 295px;
+    margin: 0 auto;
+    background: url(//hd.huya.com/201904activity/img/cup_small_0ea541d.png) no-repeat 0 0/198px 154px;
+    margin-left: 143px;
+    margin-top: 50px
+}
+
+.boss_rank_wrap .god .look_people {
+    width: 207px;
+    height: 51px;
+    margin: 0 auto;
+    background: url(//hd.huya.com/201904activity/img/bg_look_people_d12a3f5.png) no-repeat 0 0/207px 51px;
+    color: #a28a53;
+    font-size: 14px;
+    line-height: 51px;
+    padding-left: 9px
+}
+
+.boss_rank_wrap .god .look_people .look_head_pic {
+    position: relative;
+    top: -2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #866c3e;
+    margin-right: 10px
+}
+
+.boss_rank_wrap .god .look_people .look_name {
+    vertical-align: top;
+    font-size: 14px;
+    color: #edca78;
+    width: auto;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-align: left;
+    max-width: 100px;
+    display: inline-block
+}
+
+.boss_rank_wrap .god .deco.deco2, .boss_rank_wrap .god .deco.deco7, .boss_rank_wrap .god .deco.deco3 {
+    width: 51px;
+    height: 130px;
+    position: absolute;
+    left: 74px;
+    top: 34px;
+    z-index: 3
+}
+
+.boss_rank_wrap .god .deco.deco4,.boss_rank_wrap .god .deco.deco5,.boss_rank_wrap .god .deco.deco6 {
+    width: 42px;
+    height: 130px;
+    position: absolute;
+    left: 78px;
+    top: 34px;
+    z-index: 3
+}
+
+ .boss_rank_wrap .god .deco.deco2 {
+    background: url(//hd.huya.com/201904activity/img/dec_2_88ff1d1.png) no-repeat 0 0/51px 130px
+}
+
+.boss_rank_wrap .god .deco.deco3 {
+    background: url(//hd.huya.com/201904activity/img/dec_3_d0ddfb0.png) no-repeat 0 0/51px 130px
+}
+
+.boss_rank_wrap .god .deco.deco4 {
+    background: url(//hd.huya.com/201904activity/img/dec_4_e672211.png) no-repeat 0 0/42px 130px
+}
+
+.boss_rank_wrap .god .deco.deco5 {
+    background: url(//hd.huya.com/201904activity/img/dec_5_ababc97.png) no-repeat 0 0/42px 130px
+}
+
+.boss_rank_wrap .god .deco.deco6 {
+    background: url(//hd.huya.com/201904activity/img/dec_6_cb1d97a.png) no-repeat 0 0/42px 130px
+}
+
+ .boss_rank_wrap .god .deco.deco7 {
+    background: url(//hd.huya.com/201904activity/img/dec_7_4a82795.png) no-repeat 0 0/51px 130px
+}
+
+.boss_rank_wrap .god .head_pic {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    margin: 46px 0 0 57px
+}
+
+.boss_rank_wrap .god .wrap_will_awake {
+    z-index: 2;
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    top: 46px;
+    left: 57px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    line-height: 80px
+}
+
+.boss_rank_wrap .god .cup_name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #edca78;
+    text-align: center;
+    margin-top: 35px
+}
+
+.boss_rank_wrap .god .awake_name {
+    font-size: 18px;
+    color: #90805c;
+    width: auto;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-align: left;
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center
+}
+
+.boss_rank_wrap .god.god1 {
+    position: relative;
+    float: none;
+    width: 243px;
+    height: 295px;
+    margin: 50px auto 0;
+    background: url(//hd.huya.com/201904activity/img/cup_big_370830c.png) no-repeat 0 0/243px 173px
+}
+
+.boss_rank_wrap .god.god1 .head_pic {
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    margin: 50px 0 0 70px
+}
+
+.boss_rank_wrap .god.god1 .wrap_will_awake {
+    z-index: 2;
+    position: absolute;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    top: 50px;
+    left: 70px;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    line-height: 98px
+}
+.active {
+    height: 60px;
+    background: url(//hd.huya.com/201904activity/img/bg_road_tab_active_8bfe6f6.png) no-repeat left top;
+    background-size: 160px 60px;
+    z-index: 2;
+    background-size: cover;
+    border-radius: 0px;
+    width: 167px;
+    height: 60px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    box-shadow: none;
+}
+a:hover {
+    color: #ebddc3;
+}
+.top_rank {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    border: unset;
 }

@@ -272,10 +272,15 @@ $(document).ready(function () {
 				if (position.top > 800) {
 					$(this).children(".details").css("top", "-187px");
 				}
-
-				if (position.left > 600) {
+        
+				if (position.left > 600 && position.left < 700) {
 					$(this).children(".details").css("left", "80px");
 				}
+				
+				if (position.left > 700 && position.left < 1023) {
+					$(this).children(".details").css("left", "35px");
+				}
+				
 				
 				if (position.left > 1023) {
 					$(this).children(".details").css("left", "-30px");
