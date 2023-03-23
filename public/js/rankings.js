@@ -994,40 +994,40 @@ $(document).ready(function () {
 
 
 				html += `<tr><td><div class='d-flex'>`;
-				            
-				            if(i == 1)
-						    {
-						       html += `<img class='ranking_img top_rank' src="https://i.imgur.com/HISKvRU.png"><p>`+ rankPersonally + `</p>`;
-						    }
-						    else if(i == 2)
-						    {
-						        html += `<img class='ranking_img top_rank' src="https://i.imgur.com/cSzIfs1.png"><p>`+ rankPersonally + `</p>`;
-						    }
-						    else if(i == 3)
-						    {
-						        html += `<img class='ranking_img top_rank' src="https://i.imgur.com/aDOnkWf.png"><p>`+ rankPersonally + `</p>`;
-						    }
-        				   else
-        				   {
-        				       html += `<p style='padding-left: 38px;'>`+ rankPersonally + `</p></div></td>`;
-        				   }
-        				   
-        			 html += `<td class='d-flex align-items-center'>`;
-						    
-						    if(i == 1)
-						    {
-						       html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
-						    }
-						    else if(i == 2)
-						    {
-						        html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
-						    }
-						    else if(i == 3)
-						    {
-						        html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
-						    }
-						    
-							html += `<img class='ranking_img' src="`+ p.image + `">
+				if (pagePersonally == 0) {
+					if (i == 1) {
+						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/HISKvRU.png"><p>` + rankPersonally + `</p>`;
+					}
+					else if (i == 2) {
+						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/cSzIfs1.png"><p>` + rankPersonally + `</p>`;
+					}
+					else if (i == 3) {
+						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/aDOnkWf.png"><p>` + rankPersonally + `</p>`;
+					}
+					else {
+						html += `<p style='padding-left: 38px;'>` + rankPersonally + `</p></div></td>`;
+					}
+
+					html += `<td class='d-flex align-items-center'>`;
+
+					if (i == 1) {
+						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+					}
+					else if (i == 2) {
+						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+					}
+					else if (i == 3) {
+						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+					}
+				}
+				else {
+					html += `<p style='padding-left: 38px;'>` + rankPersonally + `</p></div></td>`;
+					html += `<td class='d-flex align-items-center'>`;
+				}
+
+
+
+				html += `<img class='ranking_img' src="` + p.image + `">
 							<p>` + p.name + `</p>
 						</td> 
 						<td class="column-vip" style='background-image: url(./public/images/vip.png) !important;
@@ -1038,7 +1038,7 @@ $(document).ready(function () {
                         <td>` + power + `</td>
                         <td>` + p.sever + `</td>
                     </tr>`;
-                i++;
+				i++;
 				rankPersonally++;
 			});
 
@@ -1081,7 +1081,6 @@ $(document).ready(function () {
 						p.classList.remove("active_rank");
 					});
 					rankPersonally = p.getAttribute('data-rank_personally')
-					console.log(rankPersonally)
 					e.target.classList.toggle("active_rank");
 					pagePersonally = p.getAttribute("data-page");
 					loadRankingsPersonally();
