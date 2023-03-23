@@ -1,0 +1,167 @@
+.label_meridian {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 999999;
+}
+#cb_meridian:checked ~ .label_meridian {
+	display: block;
+}
+#cb_meridian:checked ~ .meridians {
+	display: grid;
+}
+
+.meridians {
+    background-image: url(https://i.imgur.com/tepCYKg.png);
+    background-size: cover;
+    display: none;
+    grid-template-columns: 70% 30%;
+    column-gap: 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 9999999;
+    width: 1270px;
+    height: 890px;
+}
+
+.meridians__container {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+	column-gap: 15px;
+}
+
+.meridian_item {
+    width: 170px;
+    background-image: url(https://i.imgur.com/2sL8zjm.png);
+    height: 170px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meridian_left-1,
+.meridian_left-1__container {
+	left: 40%;
+	top: 5%;
+	object-fit: cover;
+}
+
+.meridian_left-2,
+.meridian_left-2__container {
+	top: 40%;
+	left: 41%;
+	object-fit: cover;
+}
+
+.meridian_left-3,
+.meridian_left-3__container {
+	top: 75%;
+	left: 42%;
+	object-fit: cover;
+}
+
+.meridian_right-1,
+.meridian_right-1__container {
+	top: 5%;
+	object-fit: cover;
+}
+
+.meridian_right-2,
+.meridian_right-2__container {
+	top: 40%;
+	object-fit: cover;
+}
+
+.meridian_right-3,
+.meridian_right-3__container {
+	top: 75%;
+	object-fit: cover;
+}
+
+.meridian_center-character {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	width: 54%;
+}
+.inventory_meridians {
+    border-left: 1px solid #f8f9fa;
+    height: 800px;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+.inventory_meridians__container {
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+	grid-auto-flow: row;
+	grid-gap: 5px;
+	height: auto;
+
+	padding: 20px;
+}
+.inventory_meridians--item {
+    position: relative;
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    border: 1px solid rgb(169 169 169 / 75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.meridian_item--image {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title_meridian {
+	font-size: 22px;
+	font-weight: 600;
+	color: #ff9900;
+	margin-top: 10px;
+}
+
+.inventory_meridians--item-function {
+	display: none;
+	position: absolute;
+	top: 110%;
+	z-index: 9999;
+	background-color: rgb(40 40 40);
+	height: auto;
+	width: 50px;
+}
+
+.inventory_meridians--item-function > button {
+	width: 100%;
+	color: #ffff;
+	background-color: rgb(151 151 151 / 100%);
+	font-weight: bold;
+	border: unset;
+	border-bottom: 1px solid rgb(169 169 169 / 75%);
+}
+.inventory_meridians--item.active_meridians > .inventory_meridians--item-function {
+	display: block;
+}
+
+.take-off_meridians.active_take-of {
+	display: block;
+}

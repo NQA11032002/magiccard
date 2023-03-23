@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="header--name">
-                        <h2><?php echo $_SESSION["logined"][0]->name ?><img src="https://i.imgur.com/pSk3Znh.png"></h2>
+                        <h2><?php echo $_SESSION["logined"][0]->name ?></h2>
                         <p class="header-power">Lực chiến:
                             <?php if ($_SESSION["logined"][0]->power == null) {
     echo 0;
@@ -27,13 +27,19 @@
             <li>
                 <div class="header-shops">
                     <label for="cbShop" style="padding-right: 5px">
-                        <img src="https://i.imgur.com/uHgLIWR.png">
+                        <img src="https://i.imgur.com/Bl4Pzdw.png">
                     </label>
                     <label for="cbInventory">
-                        <img src="https://i.imgur.com/QCsQ2DS.png">
+                        <img src="https://i.imgur.com/pN479ih.png">
                     </label>
                     <label for="cbGuild">
-                        <i class="fa-brands fa-guilded" id=""></i>
+                       <img src="https://i.imgur.com/LdkOCMc.png">
+                    </label>
+                    <label for="cb_pvp" class="icon_pvp">
+                       <img src="https://i.imgur.com/TXEtaXq.png">
+                    </label>
+                    <label for="cb_meridian" class="cb_meridian">
+                       <img src="https://i.imgur.com/KJxgUlj.png">
                     </label>
                     <div class="mucsic_container">
                         <img class="music play_audio" src="./public/images/pause.png" alt="">

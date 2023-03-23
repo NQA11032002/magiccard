@@ -96,7 +96,6 @@ $(document).ready(function() {
 
 		//thực hiện đăng nhập
 		$.post("./DangNhap/login", { user_name: user_name, password: password }, function(response) {
-			console.log(response);
 			if (response == 1) {
 				location.reload();
 			} else {
@@ -109,6 +108,7 @@ $(document).ready(function() {
 	$(".logout").click(function(e) {
 		//thực hiện đăng nhập
 		$.post("./DangNhap/logout", function(response) {
+		    console.log(response);
 			location.reload();
 		});
 	});

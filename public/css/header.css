@@ -1,11 +1,11 @@
 .header {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 1095px;
-	height: 70px;
-	width: 100%;
-	z-index: 999;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 645px;
+    height: 70px;
+    width: 100%;
+    z-index: 999;
 }
 
 .header-container {
@@ -45,19 +45,23 @@
 }
 
 .header__container--image {
-	flex-direction: column;
-	overflow: hidden;
-	margin-right: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+    background-image: url(https://hd.huya.com/web/1911hyactivity/static/img/head.1bb1391.png);
+    flex-direction: column;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header__avatar {
-	width: 100px;
-	height: 100px;
-	object-fit: cover;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
-
 .header--name > h2 {
 	font-size: 20px;
 	color: #f00;
@@ -116,4 +120,19 @@ i:hover {
 	color: #ff9900;
 	font-size: 17px;
 	text-align: left;
+}
+.labelChamption {
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -272px;
+    color: #221b19;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 700;
+    font-size: 15px;
+    background-image: url(//hd.huya.com/web/1911hyactivity/static/img/hourChamption.8d40664.png);
+    background-size: 100% 100%;
 }
