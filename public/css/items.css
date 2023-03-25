@@ -1,72 +1,80 @@
 .details {
-   position: absolute;
-   display: none;
-   top: 51px;
-   left: 25px;
-   transform: translateX(-50%);
-   width: 164px;
-   height: auto;
-   z-index: 99999999;
-   border-radius: 10px;
-   background-color: #333366;
+	position: absolute;
+	display: none;
+	top: 51px;
+	left: 25px;
+	transform: translateX(-50%);
+	width: 164px;
+	height: auto;
+	z-index: 99999999;
+	border-radius: 10px;
+	background-color: #333366;
 }
 
 .detail_item {
-   padding: 10px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   color: #fff;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
 }
 
 .detail_item--info {
-   display: grid;
-   grid-template-rows: auto auto auto;
-   row-gap: 10px;
-   margin-top: 20px;
+	display: grid;
+	grid-template-rows: auto auto auto;
+	row-gap: 10px;
+	margin-top: 20px;
 }
 
 .detail_item--info > p {
-   font-size: 15px;
+	font-size: 14px;
+	text-align: center;
 }
 
 .detail_item--image > img {
-    width: 55px;
-    height: 55px;
-    object-fit: cover;
-    border: 1px solid #f7f7f7;
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+	border: 1px solid #f7f7f7;
 }
 
 .detail_item--name {
-   font-weight: bold;
-   font-size: 18px;
-   color: #ff9f4a;
+    text-align:center;
+	font-weight: bold;
+	font-size: 13px;
+	color: #ff9f4a;
 }
 
 .inventory_item {
-   position: relative;
-   width: 50px;
-   height: 50px;
-   border-radius: 5px;
+    border: 0px solid rgb(169 169 169 / 75%) !important;
+    background-image: url(https://i.imgur.com/gY6KfBw.png);
+    position: relative;
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-size: cover;
 }
-
 .inventory_item:hover > .details {
-   display: block;
+	display: block;
 }
 .img_item {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     transform: translate(-50%, -50%);
 }
 
 .count_item {
-   position: absolute;
-   font-size: 14px;
-   color: #f00;
-   top: 0;
-   right: 0;
-   font-weight: bold;
+	position: absolute;
+	font-size: 14px;
+	color: #f00;
+	top: 0;
+	right: 0;
+	font-weight: bold;
 }

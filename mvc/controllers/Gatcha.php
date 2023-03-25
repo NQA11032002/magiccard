@@ -16,6 +16,14 @@ class Gatcha extends Controller
         echo $result;
     }
 
+    public function getItemPointGatcha()
+    {
+
+        $result = $this->model->getItemPointGatcha();
+
+        echo $result;
+    }
+
     //lấy danh sách lịch sử quay
     public function getHistoryGatcha()
     {

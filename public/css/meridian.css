@@ -17,20 +17,20 @@
 }
 
 .meridians {
-    background-image: url(https://i.imgur.com/tepCYKg.png);
-    background-size: cover;
-    display: none;
-    grid-template-columns: 70% 30%;
-    column-gap: 15px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 999;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    z-index: 9999999;
-    width: 1270px;
-    height: 890px;
+	background-image: url(https://i.imgur.com/tepCYKg.png);
+	background-size: cover;
+	display: none;
+	grid-template-columns: 70% 24%;
+	column-gap: 15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	z-index: 9999999;
+	width: 1270px;
+	height: 890px;
 }
 
 .meridians__container {
@@ -40,19 +40,19 @@
 }
 
 .meridian_item {
-    width: 170px;
-    background-image: url(https://i.imgur.com/2sL8zjm.png);
-    height: 170px;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 170px;
+	background-image: url(https://i.imgur.com/2sL8zjm.png);
+	height: 170px;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .meridian_left-1,
 .meridian_left-1__container {
 	left: 40%;
-	top: 5%;
+	top: 10%;
 	object-fit: cover;
 }
 
@@ -72,7 +72,7 @@
 
 .meridian_right-1,
 .meridian_right-1__container {
-	top: 5%;
+	top: 10%;
 	object-fit: cover;
 }
 
@@ -90,6 +90,8 @@
 
 .meridian_center-character {
 	position: absolute;
+	height: 100%;
+	object-fit: contain;
 	top: 50%;
 	left: 37%;
 	transform: translate(-50%, -50%);
@@ -97,10 +99,11 @@
 	width: 54%;
 }
 .inventory_meridians {
-    border-left: 1px solid #f8f9fa;
-    height: 800px;
-    overflow-y: auto;
-    margin-top: 50px;
+	grid-template-rows: 70% 30%;
+	border-left: 1px solid #f8f9fa;
+	height: 800px;
+	overflow-y: auto;
+	margin-top: 50px;
 }
 .inventory_meridians__container {
 	align-items: center;
@@ -114,15 +117,15 @@
 	padding: 20px;
 }
 .inventory_meridians--item {
-    position: relative;
-    height: 55px;
-    width: 55px;
-    border-radius: 5px;
-    border: 1px solid rgb(169 169 169 / 75%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+	position: relative;
+	height: 55px;
+	width: 55px;
+	border-radius: 5px;
+	border: 1px solid rgb(169 169 169 / 75%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 }
 .meridian_item--image {
 	width: 50px;
@@ -137,7 +140,7 @@
 	font-size: 22px;
 	font-weight: 600;
 	color: #ff9900;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .inventory_meridians--item-function {
@@ -164,4 +167,45 @@
 
 .take-off_meridians.active_take-of {
 	display: block;
+}
+
+.inventory_meridians--create-item {
+	height: 50%;
+	border-top: 1px solid #ffff;
+}
+
+.meridian__item--create {
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	border: 1px solid #f8f9fa;
+}
+.create-meridians {
+	margin-top: 30px;
+}
+.inventories_meridians {
+	height: 50%;
+	overflow-y: auto;
+}
+.meridian__item-result {
+	margin: 15px auto;
+}
+.create_item--icon {
+	font-size: 26px;
+	color: #f8f9fa;
+	margin: 0 15px;
+}
+
+.create-meridian {
+	border-radius: 5px;
+	margin-top: 30px;
+	width: 140px;
+	height: 40px;
+	background: #fff;
+	font-size: 16px;
+	font-weight: 600;
+}
+.create-meridian:hover {
+	background: #fff;
+	opacity: 80%;
 }

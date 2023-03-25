@@ -23,8 +23,9 @@ class itemsController extends Controller
 
         $id_user = isset($_SESSION["logined"]) ? $_SESSION["logined"][0]->id : null;
         $id_item = isset($_POST["id_equipment"]) ? $_POST["id_equipment"] : null;
+        $id_inventory = isset($_POST["id_inventory"]) ? $_POST["id_inventory"] : null;
 
-        $this->model->updateStatusEquipment($id_user, $id_item);
+        $result = $this->model->updateStatusEquipment($id_user, $id_item, $id_inventory);
 
         if (isset($_SESSION["logined"])) {
             $this->model = $this->model("loginModel");
@@ -73,5 +74,4 @@ class itemsController extends Controller
             }
         }
     }
-
 }

@@ -3,7 +3,7 @@ $(document).ready(function () {
     getWearMeridian();
     setEventTakOffMeridian();
 
-    //get list inventory meridian
+    // get list inventory meridian
     function getInventory_Meridian() {
         $.post("./Meridian/getInventory_Meridian", function (response) {
             let obj = JSON.parse(response);
@@ -11,9 +11,9 @@ $(document).ready(function () {
             let html = ``;
             obj.forEach(element => {
                 html += `<div class="inventory_meridians--item position-relative position-relative" data-id="` + element.id + `">
-                            <img class="position-absolute meridian_item--image" src="`+ element.img + `" alt="">
+                            <img class="position-absolute meridian_item--image" src="` + element.img + `" alt="">
                             <div class="inventory_meridians--item-function">
-                                <button class='wear--meridian' data-id="`+ element.id + `" data-id_item="` + element.id_item + `">Đeo</button>
+                                <button class='wear--meridian' data-id="` + element.id + `" data-id_item="` + element.id_item + `">Đeo</button>
                             </div>
                         </div>`;
             });
@@ -26,15 +26,20 @@ $(document).ready(function () {
                 let id = $(this).attr("data-id");
                 let id_item = $(this).attr("data-id_item");
 
-                $.post("./Meridian/updateStatusMeridianToWear", { id: id, id_item: id_item }, function (response) {
+                $.post("./Meridian/updateStatusMeridianToWear", {
+                    id: id,
+                    id_item: id_item
+                }, function (response) {
                     getInventory_Meridian();
                     getWearMeridian();
+                    console.log(response);
+                    $(".header-power").html("Lực chiến: " + response);
                 })
             })
         })
     }
 
-    //set event click take off item meridian
+    // set event click take off item meridian
     function setEventTakOffMeridian() {
         let arrMeridian = document.querySelectorAll('.meridian_item');
 
@@ -55,13 +60,18 @@ $(document).ready(function () {
     $('.take-of--meridian-child').click(function () {
         let id = $(this).attr("data-id");
         let id_item = $(this).attr("data-id_item");
-        $.post("./Meridian/takeOfMeridian", { id: id, id_item: id_item }, function (response) {
+        $.post("./Meridian/takeOfMeridian", {
+            id: id,
+            id_item: id_item
+        }, function (response) {
             getInventory_Meridian();
             getWearMeridian();
+            console.log(response);
+            $(".header-power").html("Lực chiến: " + response);
         })
     })
 
-    //set event click for item meridian in inventory
+    // set event click for item meridian in inventory
     function setEventMeridian() {
         let arrMeridian = document.querySelectorAll('.inventory_meridians--item');
 
@@ -76,7 +86,7 @@ $(document).ready(function () {
         })
     }
 
-    //get equipment meridian was wear  
+    // get equipment meridian was wear
     function getWearMeridian() {
         $.post("./Meridian/getWearMeridian", function (response) {
             let obj = JSON.parse(response);

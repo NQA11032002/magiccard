@@ -60,12 +60,42 @@
         </div>
     </div>
 
-    <div class="inventory_meridians">
-        <h1 class="h1 text-center title_meridian" style="
-    margin-left: -80px;
-">Kinh Mạch</h1>
-        <div class="inventory_meridians__container">
+    <div class="inventory_meridians d-flex flex-column">
+        <div class="inventories_meridians">
+            <h1 class="h1 text-center title_meridian">Kho Kinh Mạch</h1>
 
+            <div class="inventory_meridians__container">
+
+            </div>
+        </div>
+
+        <div class="inventory_meridians--create-item">
+            <h1 class="h1 text-center title_meridian">Ghép Kinh Mạch</h1>
+
+            <div class="create-meridians">
+                <div
+                    class="meridian__item-result meridian__item--create d-flex justify-content-center align-items-center">
+                    <img src="" alt="" class="meridian-result--image">
+                </div>
+
+                <div class="container__meridian--item d-flex justify-content-center align-items-center">
+                    <div class="meridian__item--create meridian__item-1">
+                        <img src="" alt="" class="meridian-image-1">
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-plus create_item--icon"></i>
+                    </div>
+
+                    <div class="meridian__item-2 meridian__item--create">
+                        <img src="" alt="" class="meridian-image-2">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button type="" class="create-meridian btn">Ghép đồ</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -4,7 +4,23 @@ class gatchaModel extends Database
     public function getItemGatcha()
     {
         $query = "SELECT `id`, `name`, `type`, `type_equipment`, `attribute_1`, `attribute_2`, `attribute_3`, `amount`, `img`, `power`, `status`, `point_gatcha`
-        FROM `items` WHERE status = 3";
+        FROM `items` WHERE status = 3 and point_gatcha = 0";
+
+        $result = mysqli_query($this->con, $query);
+
+        $arr = array();
+
+        while ($row = mysqli_fetch_assoc($result)) {
+            $arr[] = $row;
+        }
+
+        return json_encode($arr);
+    }
+
+    public function getItemPointGatcha()
+    {
+        $query = "SELECT `id`, `name`, `type`, `type_equipment`, `attribute_1`, `attribute_2`, `attribute_3`, `amount`, `img`, `power`, `status`, `point_gatcha`
+        FROM `items` WHERE status = 3 and point_gatcha = 1";
 
         $result = mysqli_query($this->con, $query);
 
@@ -23,7 +39,8 @@ class gatchaModel extends Database
                   FROM `history_rotation_luck` as h
                   join users on h.id_user = users.id
                   join items on h.id_item = items.id
-                  where h.id_user = '" . $id_user . "'";
+                  where h.id_user = '" . $id_user . "'
+                  order by(h.id) desc";
 
         $result = mysqli_query($this->con, $query);
 
@@ -48,7 +65,6 @@ class gatchaModel extends Database
     public function getTicketLucky($id_user)
     {
 
-        
         $query = "SELECT sum(inven.amount) as amount, inven.id
                     FROM `inventories` as inven
                     join items on inven.id_item = items.id

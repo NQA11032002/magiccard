@@ -43,7 +43,18 @@ class Meridian extends Controller
             $id_item = isset($_POST["id_item"]) ? $_POST["id_item"] : null;
 
             $result = $this->model->updateStatusMeridianToWear($id_user, $id_inventory, $id_item);
-            echo $result;
+        }
+
+        if (isset($_SESSION["logined"])) {
+            $this->model = $this->model("loginModel");
+
+            $checkPass = $this->model->checkPassword($_SESSION["logined"][0]->user_name);
+
+            $result = $this->model->login($_SESSION["logined"][0]->user_name, $checkPass[0]);
+            if ($result != 0) {
+                $_SESSION["logined"] = json_decode($result, false);
+                echo $_SESSION["logined"][0]->power;
+            }
         }
     }
 
@@ -56,7 +67,18 @@ class Meridian extends Controller
             $id_item = isset($_POST["id_item"]) ? $_POST["id_item"] : null;
 
             $result = $this->model->takeOfMeridian($id_user, $id, $id_item);
-            echo $result;
+        }
+
+        if (isset($_SESSION["logined"])) {
+            $this->model = $this->model("loginModel");
+
+            $checkPass = $this->model->checkPassword($_SESSION["logined"][0]->user_name);
+
+            $result = $this->model->login($_SESSION["logined"][0]->user_name, $checkPass[0]);
+            if ($result != 0) {
+                $_SESSION["logined"] = json_decode($result, false);
+                echo $_SESSION["logined"][0]->power;
+            }
         }
     }
 }
