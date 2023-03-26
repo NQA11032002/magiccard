@@ -2,57 +2,57 @@ $(document).ready(function () {
 	let guilds = [
 		{
 			id: 1,
-			name: "Đông King",
-			master: "Thích Oh Yeah",
-			power: 287651 + Math.floor(Math.random() * 1000) + 1,
-			sever: "S1-Việt Nam",
+			name: "Tàn Sát",
+			master: "正恒pop",
+			power: 887651 + Math.floor(Math.random() * 1000) + 1,
+			sever: "S3-Việt Nam",
 			page: 0
 		},
 		{
 			id: 2,
 			name: "Ăn Chơi",
-			master: "BáChủLâmAn",
-			power: 216000 + Math.floor(Math.random() * 1000) + 1,
+			master: "Dân Thường",
+			power: 896000 + Math.floor(Math.random() * 1000) + 1,
 			sever: "S1-Việt Nam",
 			page: 0
 		},
 		{
 			id: 3,
-			name: "Phan Thị",
-			master: "Calius",
-			power: 210000 + Math.floor(Math.random() * 1000) + 1,
-			sever: "S1-Việt Nam",
+			name: "Thiên Mệnh",
+			master: "Phổ Độ Súc Sinh",
+			power: 810000 + Math.floor(Math.random() * 1000) + 1,
+			sever: "S2-Việt Nam",
 			page: 0
 		},
 		{
 			id: 4,
 			name: "Đại Anh Hùng",
 			master: "Miss Neko",
-			power: 220600 + Math.floor(Math.random() * 1000) + 1,
+			power: 720600 + Math.floor(Math.random() * 1000) + 1,
 			sever: "S1-Việt Nam",
 			page: 0
 		},
 		{
 			id: 5,
-			name: "Cửu Thiên",
-			master: "Sát Tử Tâm",
-			power: 210600 + Math.floor(Math.random() * 1000) + 1,
-			sever: "S1-Việt Nam",
+			name: "Thiên Địa",
+			master: "Thiên Kiếm Tà",
+			power: 760600 + Math.floor(Math.random() * 1000) + 1,
+			sever: "S3-Việt Nam",
 			page: 0
 		},
 		{
 			id: 6,
-			name: "Chị Chị Em Em",
-			master: "Khánh Linhh",
-			power: 210500 + Math.floor(Math.random() * 1000) + 1,
-			sever: "S1-Việt Nam",
+			name: "Tam Giới",
+			master: "Hoàng Đại Đế",
+			power: 750500 + Math.floor(Math.random() * 1000) + 1,
+			sever: "S2-Việt Nam",
 			page: 0
 		},
 		{
 			id: 7,
 			name: "Push",
 			master: "Tài Phệt",
-			power: 200600 + Math.floor(Math.random() * 1000) + 1,
+			power: 600600 + Math.floor(Math.random() * 1000) + 1,
 			sever: "S1-Việt Nam",
 			page: 0
 		},
@@ -60,188 +60,26 @@ $(document).ready(function () {
 			id: 8,
 			name: "Ma Giáo",
 			master: "Tiêu Yun",
-			power: 200600 + Math.floor(Math.random() * 1000) + 1,
+			power: 690600 + Math.floor(Math.random() * 1000) + 1,
 			sever: "S1-Việt Nam",
 			page: 0
 		},
 		{
 			id: 9,
-			name: "Ăn Nhậu",
-			master: "Thánh Lầy",
-			power: 200900 + Math.floor(Math.random() * 1000) + 1,
-			sever: "S1-Việt Nam",
+			name: "Đoạt Mệnh",
+			master: "Mad",
+			power: 720900 + Math.floor(Math.random() * 1000) + 1,
+			sever: "S2-Việt Nam",
 			page: 0
 		},
 		{
 			id: 10,
 			name: "Ngạo Thiên",
 			master: "Hades",
-			power: 210200 + Math.floor(Math.random() * 1000) + 1,
+			power: 540200 + Math.floor(Math.random() * 1000) + 1,
 			sever: "S1-Việt Nam",
 			page: 0
 		},
-
-		{
-			id: 11,
-			name: "ThiênnVũ",
-			master: "BốCáMập",
-			power: 190200 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 12,
-			name: "BộTộcThiểuSố",
-			master: "HoàngContainer",
-			power: 190100 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 13,
-			name: "LệnhTruySát",
-			master: "LãoQuỷDC",
-			power: 180900 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 14,
-			name: "SxKingxS",
-			master: "KsTiểuQuân",
-			power: 180800 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 15,
-			name: "zzVôSongzz",
-			master: "zTiêuKiếm",
-			power: 180700 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 16,
-			name: "TiêuDaoTrang",
-			master: "TraiNgoan",
-			power: 180600 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 17,
-			name: "HoàngGia",
-			master: "LạcMấtOanh",
-			power: 180500 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 18,
-			name: "xXxMaGiáoxXx",
-			master: "xXxGiáoChủxXx",
-			power: 180400 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 19,
-			name: "HảiThầnĐảo",
-			master: "PhượngS",
-			power: 180300 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-		{
-			id: 20,
-			name: "zzThiênĐịa",
-			master: "KỳLânOnee",
-			power: 180200 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 1
-		},
-
-		{
-			id: 21,
-			name: "PờRồMAXNạp",
-			master: "BềuDạtMâyBay",
-			power: 180000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 22,
-			name: "zzzAreszzz",
-			master: "FCChuoi",
-			power: 179000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 23,
-			name: "ThíchĐậpĐá",
-			master: "HeoBéBỏng",
-			power: 177000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 24,
-			name: "TiệmCầmĐồ",
-			master: "TriệuTửDương",
-			power: 172000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 25,
-			name: "SxCửuThiênxS",
-			master: "TakaNe",
-			power: 169000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 26,
-			name: "BakeryShop",
-			master: "BennBánBánh",
-			power: 159000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 27,
-			name: "LầyFamily",
-			master: "ThượngUyển",
-			power: 171000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 28,
-			name: "sSTứHảiSs",
-			master: "ChungTổng",
-			power: 161000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 29,
-			name: "xGiangHồx",
-			master: "GHxxLinhThỏ",
-			power: 159000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		},
-		{
-			id: 30,
-			name: "ĐàoHoaCốc",
-			master: "XxThỏxX",
-			power: 189000 + Math.floor(Math.random() * 500) + 1,
-			sever: "S1-Việt Nam",
-			page: 2
-		}
 	];
 
 	let friends = [
@@ -866,20 +704,20 @@ $(document).ready(function () {
 		$(".rankings_table").html(html);
 
 		let pagination = ``
+		$('.paginations').html("");
+		// pagination += `<p class="pagination" data-page=0 data-rank_guild=1> 0</p> 
+		// 				<p class="pagination" data-page=1 data-rank_guild=11> 1</p>
+		// 				<p class="pagination" data-page=2 data-rank_guild=21> 2</p>`;
 
-		pagination += `<p class="pagination" data-page=0 data-rank_guild=1> 0</p> 
-						<p class="pagination" data-page=1 data-rank_guild=11> 1</p>
-						<p class="pagination" data-page=2 data-rank_guild=21> 2</p>`;
+		// $(".paginations").html(pagination);
 
-		$(".paginations").html(pagination);
-
-		$('.pagination').click(function () {
-			resetActivePagination("guild");
-			$(this).addClass('active_guild')
-			rankGuild = $(this).attr("data-rank_guild");
-			let pageGuild = $(this).attr("data-page");
-			loadRankGuid(pageGuild);
-		})
+		// $('.pagination').click(function () {
+		// 	resetActivePagination("guild");
+		// 	$(this).addClass('active_guild')
+		// 	rankGuild = $(this).attr("data-rank_guild");
+		// 	let pageGuild = $(this).attr("data-page");
+		// 	loadRankGuid(pageGuild);
+		// })
 	}
 
 	//xếp hạng đồng hành
@@ -992,52 +830,70 @@ $(document).ready(function () {
 					power = p.power;
 				}
 
-
-				html += `<tr><td><div class='d-flex'>`;
 				if (pagePersonally == 0) {
+					html += `<tr><td><div>`;
+
 					if (i == 1) {
-						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/HISKvRU.png"><p>` + rankPersonally + `</p>`;
+						html += `<p class='top-1_rank-stt'>` + rankPersonally + `</p>`;
 					}
 					else if (i == 2) {
-						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/cSzIfs1.png"><p>` + rankPersonally + `</p>`;
+						html += `<p class='top-2_rank-stt'>` + rankPersonally + `</p>`;
 					}
 					else if (i == 3) {
-						html += `<img class='ranking_img top_rank' src="https://i.imgur.com/aDOnkWf.png"><p>` + rankPersonally + `</p>`;
+						html += `<p class='top-3_rank-stt'>` + rankPersonally + `</p>`;
 					}
 					else {
-						html += `<p style='padding-left: 38px;'>` + rankPersonally + `</p></div></td>`;
+						html += `<p>` + rankPersonally + `</p></div></td>`;
 					}
 
 					html += `<td class='d-flex align-items-center'>`;
 
+					html += `<img class='ranking_img' src="` + p.image + `">
+							<p>` + p.name + `</p>`;
 					if (i == 1) {
-						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+						html += `<img class='ranking_img ranking_img-top1 top_rank' src="./public/images/ranks/4.png">`;
 					}
 					else if (i == 2) {
-						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+						html += `<img class='ranking_img ranking_img-top2 top_rank' src="./public/images/ranks/4.png">`;
 					}
 					else if (i == 3) {
-						html += `<img class='ranking_img top_rank' src="./public/images/ranks/4.png">`;
+						html += `<img class='ranking_img ranking_img-top3 top_rank' src="./public/images/ranks/4.png">`;
 					}
-				}
-				else {
-					html += `<p style='padding-left: 38px;'>` + rankPersonally + `</p></div></td>`;
-					html += `<td class='d-flex align-items-center'>`;
-				}
 
 
-
-				html += `<img class='ranking_img' src="` + p.image + `">
-							<p>` + p.name + `</p>
-						</td> 
+					html += `</td> 
 						<td class="column-vip" style='background-image: url(./public/images/vip.png) !important;
 						background-repeat: no-repeat;
 						background-position: center;
 						background-size: auto;
 						padding: 5px;'>` + p.level + `</td>
-                        <td>` + power + `</td>
-                        <td>` + p.sever + `</td>
-                    </tr>`;
+						<td>` + power + `</td>
+						<td>` + p.sever + `</td>
+					</tr>`;
+				}
+				else {
+					html += `<tr>
+								<td>
+									<div>
+										<p>` + rankPersonally + `</p>
+									</div>
+								</td>
+								<td class='d-flex align-items-center'>
+									<img class='ranking_img' src="` + p.image + `">
+									<p>` + p.name + `</p>
+								</td> 
+								<td class="column-vip" style='background-image: url(./public/images/vip.png) !important;
+									background-repeat: no-repeat;
+									background-position: center;
+									background-size: auto;
+									padding: 5px;'>` + p.level + `
+								</td>
+								<td>` + power + `</td>
+								<td>` + p.sever + `</td>
+							</tr>`;
+				}
+
+
 				i++;
 				rankPersonally++;
 			});
@@ -1081,6 +937,7 @@ $(document).ready(function () {
 						p.classList.remove("active_rank");
 					});
 					rankPersonally = p.getAttribute('data-rank_personally')
+					console.log(rankPersonally)
 					e.target.classList.toggle("active_rank");
 					pagePersonally = p.getAttribute("data-page");
 					loadRankingsPersonally();

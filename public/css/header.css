@@ -1,5 +1,5 @@
 .header {
-    position: sticky;
+        position: relative;
     left: 0;
     right: 0;
     top: 645px;
@@ -76,10 +76,10 @@
 	text-align: left;
 }
 .logined_coin {
-	text-align: left;
-	color: #ffff00;
-	font-size: 17px;
-	margin-top: 5px;
+    text-align: left;
+    color: #ffff00;
+    font-size: 17px;
+    margin-top: -50px;
 }
 .logined_coin > i {
 	padding-right: 5px;

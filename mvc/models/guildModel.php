@@ -4,7 +4,7 @@ class guildModel extends Database
     //get list member of guild
     public function getListGuild($id_guild)
     {
-        $query = "SELECT u.user_name, sum(items.power) as power, g.role, u.image
+        $query = "SELECT u.name, sum(items.power) as power, g.role, u.image
             from guild as g
             join users as u on g.id_user = u.id
             left JOIN items_equiment_weared as w on w.id_user = g.id_user

@@ -1,9 +1,16 @@
 body {
-   font-family: "helvetica neue", helvetica, arial, sans-serif;
-   font-size: 16px;
-   padding-top: 30px;
+	background: #053d48;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
+	min-width: 1336px;
+	overflow: hidden;
+	overflow-y: auto;
+	max-width: 1920px;
+	height: 100%;
 }
-
 header {
    text-align: center;
 }
@@ -19,60 +26,65 @@ strong {
 }
 
 .char-container {
-   text-align: center;
-   font-size: 0px;
-   padding: 5px;
-   cursor: pointer;
+  text-align: center;
+  font-size: 0px;
+  padding: 5px;
+  cursor: pointer;
 }
-
 .type {
-   display: inline-block;
-   height: 102px;
-   width: 102px;
-   margin: 10px;
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 10px;
 }
 
 .character-user {
-   margin-top: 0px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .type.duong {
-   background-image: url(https://i.imgur.com/slTHjTg.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/oHK4enE.png);
+  background-position: 100% 0;
 }
-
 .type.thuy {
-   background-image: url(https://i.imgur.com/CMbqT3C.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/93QKiIf.png);
+  background-position: 100% 0;
 }
-
 .type.am {
-   background-image: url(https://i.imgur.com/H6tuNOc.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/0lKUR3Q.png);
+  background-position: 100% 0;
 }
-
 .type.hoa {
-   background-image: url(https://i.imgur.com/U0qr0Le.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/rQJGLrV.png);
+  background-position: 100% 0;
 }
-
 .type.kim {
-   background-image: url(https://i.imgur.com/ovz9tFp.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/pXTvJmk.png);
+  background-position: 100% 0;
 }
-
-.type.duong {
-   background-position: 100% 33%;
-}
-
 .type.moc {
-   background-image: url(https://i.imgur.com/Wjn3M7d.png);
-   background-position: 100% 0;
+  background-image: url(https://i.imgur.com/8z9Of4r.png);
+  background-position: 100% 0;
 }
-
+.type.bossthuy {
+  background-image: url(https://i.imgur.com/Z5i6yKh.png);
+  background-position: 100% 0;
+}
+.type.bosskim {
+  background-image: url(https://i.imgur.com/vPxHHEr.png);
+  background-position: 100% 0;
+}
+.type.bosshoa {
+  background-image: url(https://i.imgur.com/awSJhEL.png);
+  background-position: 100% 0;
+}
+.type.bossmoc {
+  background-image: url(https://i.imgur.com/ePeiHLr.png);
+  background-position: 100% 0;
+}
 .row {
    display: block;
    min-height: 50px;
@@ -139,8 +151,8 @@ strong {
 }
 
 .stadium > section .char img {
-   background-size: cover;
-   top: 150px;
+  background-size: cover;
+      top: 255px;
 }
 
 .stadium > section .char .data {
@@ -188,7 +200,7 @@ strong {
 .skill_health {
    position: absolute;
    right: -127px;
-   top: -545px;
+   top: -200px;
    height: 80px !important;
    width: 80px !important;
    animation: health 0.5s linear infinite;
@@ -744,7 +756,7 @@ h1 {
    margin-top: 710px;
    display: flex;
    justify-content: space-around;
-   width: 80%;
+   width: 100%;
    margin: 0 auto;
    padding: 12px;
    color: #aaa;
@@ -782,41 +794,41 @@ h1 {
 }
 
 .attack-list {
-   position: absolute;
-   bottom: -50px;
-   left: 50%;
-   transform: translateX(-50%);
-   display: flex;
-   flex-wrap: wrap;
-   transtion: opacity 0.3s ease;
-   justify-content: space-evenly;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  transtion: opacity 0.3s ease;
+  justify-content: space-evenly;
 }
 
 .attack-list li {
-   border: 1px solid #3b3b3b;
-   border-radius: 100%;
-   margin-bottom: -50px;
-   height: 90px;
-   width: 90px;
-   overflow: hidden;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 20px;
-   z-index: 50;
-   margin-top: -1410px;
-   color: #fff;
-   font-size: 9px;
-   font-family: teko;
-   letter-spacing: 2px;
-   margin-right: 20px;
-   padding-left: 55px;
-   line-height: 10px;
-   text-transform: uppercase;
-   text-align: center;
-   box-sizing: border-box;
-   cursor: pointer;
-   transition: background 0.3s ease;
+    border: 1px solid #3b3b3b;
+    border-radius: 100%;
+    margin-bottom: -50px;
+    height: 95px;
+    width: 95px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    z-index: 50;
+    margin-top: -2210px;
+    color: #fff;
+    font-size: 9px;
+    font-family: teko;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    padding-left: 55px;
+    line-height: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 p.attack-name {
@@ -861,14 +873,14 @@ a.nav-seperator {
 }
 
 .stadium {
-   border-top: 2px solid #cb7f49;
-   border-bottom: 2px solid #cb7f49;
-   margin-top: 30px;
-   display: flex;
-   justify-content: space-around;
-   color: #aaa;
-   background-size: cover;
-   background-image: url(https://i.imgur.com/Tsj9IWt.jpg);
+    border-top: 2px solid #cb7f49;
+    border-bottom: 2px solid #cb7f49;
+    margin-top: 937px;
+    display: flex;
+    justify-content: space-around;
+    color: #aaa;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/Tsj9IWt.jpg);
 }
 
 #character1 ul.armor {
@@ -991,1049 +1003,49 @@ ul.weapons {
    }
 }
 
-.main {
-   margin-top: -30px;
-   position: relative;
-   max-width: 1920px;
-   min-width: 1400px;
-   width: 100%;
-   overflow: hidden;
-}
-
-.kv {
-   position: relative;
-   width: 100%;
-   height: 1080px;
-   background: url(https://i.imgur.com/9gQE1us.jpg) no-repeat center;
-   background-size: 1920px 100%;
-}
-
-.kv .kv-layer {
-   content: "";
-   position: absolute;
-   width: 100%;
-   height: 659px;
-   bottom: 0;
-   left: 0;
-   background: url(https://i.imgur.com/UhsphpB.png) no-repeat center;
-   pointer-events: none;
-}
-
-.kv .kv-video {
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   pointer-events: none;
-}
-
-.kv .kv-video video,
-.kv .kv-video canvas {
-   width: 1920px;
-   height: 1080px;
-   position: absolute;
-   left: 50%;
-   top: 0;
-   margin-left: -960px;
-}
-
-.kv .logo {
-   z-index: 2;
-   position: absolute;
-   top: 15px;
-   left: 20px;
-   width: 80px;
-   height: 260.4px;
-   background: url(https://i.imgur.com/XSZqkbV.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-.kv .btn_w {
-   z-index: 2;
-   position: absolute;
-   top: 0;
-   right: 20px;
-   width: 348px;
-   height: 47px;
-}
-
-.kv .btn_w a {
-   z-index: 1;
-   position: relative;
-   float: left;
-   width: 171px;
-   height: 47px;
-   -webkit-transition: 0.2s;
-   -moz-transition: 0.2s;
-   transition: 0.2s;
-}
-
-.kv .btn_w a.gw_btn {
-   background: url(https://i.imgur.com/9uaZB12.png) no-repeat center;
-   background-size: 100% 100%;
-   z-index: 9999;
-}
-
-.kv .btn_w a.gw_btn:hover {
-   -webkit-filter: brightness(110%);
-   filter: brightness(110%);
-   opacity: 0.8;
-}
-
-.kv .btn_w .sq_btn {
-   position: relative;
-   float: left;
-   width: 173px;
-   height: 47px;
-   -webkit-transition: 0.2s;
-   -moz-transition: 0.2s;
-   transition: 0.2s;
-   background: url(https://i.imgur.com/qhuM2GG.png) no-repeat center;
-   background-size: 100% 100%;
-   z-index: 9999;
-}
-
-.kv .btn_w .sq_btn .gflt_btn {
-   z-index: 1;
-   position: absolute;
-   top: 66px;
-   left: 262px;
-   width: 80px;
-   height: 80px;
-}
-
-.kv .btn_w .sq_btn .qc_code {
-   z-index: 1;
-   position: absolute;
-   top: 64px;
-   left: 132px;
-   width: 74px;
-   height: 74px;
-   background: url(https://i.imgur.com/1AhMRb1.png) no-repeat center;
-   background-size: 100% 100%;
-   display: none;
-}
-
-.kv .btn_w .sq_btn:after {
-   display: none;
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 49%;
-   -webkit-transform: translateX(-50%);
-   -moz-transform: translateX(-50%);
-   -ms-transform: translateX(-50%);
-   transform: translateX(-50%);
-   width: 545px;
-   height: 170px;
-   background: url(https://i.imgur.com/ACKDNoD.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-.kv .btn_w .sq_btn:hover:after {
-   display: block;
-}
-
-.kv .btn_w .sq_btn:hover .gflt_btn {
-   display: block;
-}
-
-@-webkit-keyframes _float {
-   0% {
-      bottom: 60px;
-   }
-
-   50% {
-      bottom: 80px;
-   }
-
-   100% {
-      bottom: 60px;
-   }
-}
-
-@-moz-keyframes _float {
-   0% {
-      bottom: 60px;
-   }
-
-   50% {
-      bottom: 80px;
-   }
-
-   100% {
-      bottom: 60px;
-   }
-}
-
-@keyframes _float {
-   0% {
-      bottom: 60px;
-   }
-
-   50% {
-      bottom: 80px;
-   }
-
-   100% {
-      bottom: 60px;
-   }
-}
-
-.kv .arrow_w {
-   z-index: 2;
-   position: relative;
-   top: -250px;
-   width: 1030px;
-   height: 78px;
-   margin: 0 auto;
-   pointer-events: none;
-}
-
-.kv .arrow_w .arrow_txt {
-   width: 286px;
-   height: 126px;
-   background: url(https://i.imgur.com/pxKYCnQ.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-.kv .arrow_w .arrow {
-   position: absolute;
-   bottom: 60px;
-   left: 50%;
-   -webkit-transform: translateX(-50%);
-   -moz-transform: translateX(-50%);
-   -ms-transform: translateX(-50%);
-   transform: translateX(-50%);
-   width: 169px;
-   height: 131px;
-   background: url(https://i.imgur.com/DDIJPEX.png) no-repeat center;
-   background-size: 100% 100%;
-   -moz-animation: _float 1.5s linear 0.2s infinite;
-   -webkit-animation: _float 1.5s linear 0.2s infinite;
-   animation: _float 1.5s linear 0.2s infinite;
-}
-
-.kv .content {
-   position: absolute;
-   top: 0;
-   left: 50%;
-   -webkit-transform: translateX(-50%);
-   -moz-transform: translateX(-50%);
-   -ms-transform: translateX(-50%);
-   transform: translateX(-50%);
-   width: 1440px;
-   height: 100%;
-}
-
-.kv .content .slogan {
-   position: absolute;
-   top: 30px;
-   left: 50%;
-   margin-left: -915px;
-   width: 769px;
-   height: 1047px;
-   background: url(https://i.imgur.com/SatXLWf.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-@media (max-width: 1500px) {
-   .kv .content .slogan {
-      -webkit-transform: scale(0.8);
-      -moz-transform: scale(0.8);
-      -ms-transform: scale(0.8);
-      transform: scale(0.8);
-      margin-left: -865px;
-   }
-}
-
-.kv .content .nameplate {
-   position: absolute;
-   width: 168px;
-   height: 386px;
-   left: 50%;
-   margin-left: 130px;
-   top: 264px;
-   background: url(https://i.imgur.com/ckztqXp.png);
-}
-
-.kv .content .kv_icon {
-   position: absolute;
-   top: 140px;
-   left: 0;
-   width: 235px;
-   height: 417px;
-   background: url(https://i.imgur.com/MUOUoih.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-.kv .content .icon-drop {
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   margin-top: 60px;
-   width: 526px;
-   height: 405px;
-   margin-left: -263px;
-   background: url(https://i.imgur.com/ePvjV9k.png) no-repeat center;
-   background-size: 100% 100%;
-   -moz-animation: identifier 2.5s infinite ease-in alternate;
-   -webkit-animation: identifier 2.5s infinite ease-in alternate;
-   animation: identifier 2.5s infinite ease-in alternate;
-}
-
-@-webkit-keyframes identifier {
-   0% {
-      -webkit-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      transform: translateY(0%);
-   }
-
-   100% {
-      -webkit-transform: translateY(5%);
-      -moz-transform: translateY(5%);
-      -ms-transform: translateY(5%);
-      transform: translateY(5%);
-   }
-}
-
-@-moz-keyframes identifier {
-   0% {
-      -webkit-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      transform: translateY(0%);
-   }
-
-   100% {
-      -webkit-transform: translateY(5%);
-      -moz-transform: translateY(5%);
-      -ms-transform: translateY(5%);
-      transform: translateY(5%);
-   }
-}
-
-@keyframes identifier {
-   0% {
-      -webkit-transform: translateY(0%);
-      -moz-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-      transform: translateY(0%);
-   }
-
-   100% {
-      -webkit-transform: translateY(5%);
-      -moz-transform: translateY(5%);
-      -ms-transform: translateY(5%);
-      transform: translateY(5%);
-   }
-}
-
-.part1 {
-   width: 100%;
-   height: 634px;
-   background: url(https://i.imgur.com/Ar32d31.jpg) no-repeat center;
-   background-size: 1920px 100%;
-}
-
-.part1 .tit {
-   width: 1073px;
-   height: 74px;
-   background: url(https://i.imgur.com/Xd8qlQP.png) no-repeat center;
-   background-size: 100% 100%;
-   margin: 120px auto 50px;
-}
-
-.part1 .xinfu_box {
-   width: 1421px;
-   height: 375px;
-   background: url(https://i.imgur.com/hgogKxE.png) 0 0 no-repeat;
-   margin: 0 auto 120px;
-   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-align: center;
-   -moz-box-align: center;
-   -ms-flex-align: center;
-   align-items: center;
-   -webkit-box-pack: justify;
-   -moz-box-pack: justify;
-   -ms-flex-pack: justify;
-   justify-content: space-between;
-   padding: 0 235px 20px 39px;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-}
-
-.part1 .xinfu_box.three {
-   top: 18px !important;
-   background: url(https://i.imgur.com/FJVmDz5.png) 0 0 no-repeat;
-}
-
-.part1 .xinfu_box .title_part {
-   width: 378px;
-   height: 265px;
-   position: relative;
-   margin-top: 15px;
-   margin-left: 8px;
-}
-
-.part1 .xinfu_box .title {
-   font-size: 0;
-   width: 369px;
-   height: 75px;
-   background: url(https://i.imgur.com/T7qeOfh.png) 0 0 no-repeat;
-}
-
-.part1 .xinfu_box .order_btn {
-   position: relative;
-   display: block;
-   font-size: 0;
-   margin: 7px auto 0;
-   width: 354px;
-   height: 110px;
-   color: #fff;
-   -webkit-transition: all 0.2s ease;
-   -moz-transition: all 0.2s ease;
-   transition: all 0.2s ease;
-}
-
-.part1 .xinfu_box .order_btn.ed {
-   pointer-events: none;
-}
-
-.part1 .xinfu_box .order_btn strong {
-   position: relative;
-   top: -10px;
-   display: block;
-   font-size: 24px;
-   width: 215px;
-   height: 50px;
-   background: url(https://i.imgur.com/4oponRF.png) no-repeat;
-   background-size: 100% 100%;
-   -webkit-transition: 0.3s;
-   -moz-transition: 0.3s;
-   transition: 0.3s;
-   margin-left: 124px;
-   margin-top: 11px;
-}
-
-.part1 .xinfu_box .order_btn strong.ed {
-   background: url(https://i.imgur.com/H2gkh5h.png) no-repeat;
-   background-size: 100% 100%;
-   pointer-events: none;
-}
-
-.part1 .xinfu_box .order_btn strong:hover {
-   -webkit-filter: brightness(130%);
-   filter: brightness(130%);
-   opacity: 0.8;
-}
-
-.part1 .xinfu_box .order_btn span {
-   position: relative;
-   top: -6px;
-   display: block;
-   padding-left: 110px;
-   font-size: 28px;
-   text-align: center;
-   color: #fffffe;
-   text-shadow: 0 0 10px #d3aa69;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #9d6d2d;
-   font-weight: 700;
-}
-
-.part1 .xinfu_box .order_btn:before {
-   content: "";
-   position: absolute;
-   left: 20px;
-   top: 0;
-   display: block;
-   width: 87px;
-   height: 87px;
-   background: url(https://i.imgur.com/klq3IsS.png) no-repeat;
-   background-size: 100% 100%;
-}
-
-.part1 .xinfu_box .order_btn:hover {
-   -webkit-opacity: 90;
-   -moz-opacity: 90;
-   opacity: 90;
-   filter: alpha(opacity=9000);
-}
-
-.part1 .xinfu_box .order_date {
-   position: relative;
-   width: 313px;
-   height: 67px;
-   background: url(https://i.imgur.com/Nkkexa7.png) no-repeat center;
-   margin-top: 18px;
-   margin-left: 14px;
-}
-
-.part1 .xinfu_box .progress_part {
-   width: 777px;
-   position: relative;
-   margin-top: 24px;
-}
-
-.part1 .xinfu_box .progress_part .new_text {
-   width: 934px;
-   display: -webkit-box;
-   display: -moz-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-pack: justify;
-   -moz-box-pack: justify;
-   -ms-flex-pack: justify;
-   justify-content: space-between;
-   position: absolute;
-   top: -2px;
-   left: 14px;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item {
-   height: 122px;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   padding: 6px;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item .p1 {
-   text-align: center;
-   font-size: 22px;
-   color: #f9dd9b;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item .p2 {
-   font-size: 16px;
-   color: #fff;
-   line-height: 20px;
-   text-align: center;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item1 {
-   width: 377px;
-   background: url(https://i.imgur.com/GJvMEhd.png) no-repeat center;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item2 {
-   width: 236px;
-   background: url(https://i.imgur.com/BrgtEMl.png) no-repeat center;
-}
-
-.part1 .xinfu_box .progress_part .new_text .item3 {
-   width: 290px;
-   background: url(https://i.imgur.com/OGLzaOp.png) no-repeat center;
-}
-
-.part1 .xinfu_box .progress_part .progress_line {
-   position: absolute;
-   top: 168px;
-   left: 93px;
-   width: 590px;
-   height: 6px;
-   background: #f6ba84;
-   border: 1px solid #cbcbbf;
-   padding: 1px;
-}
-
-.part1 .xinfu_box .progress_part .progress_line span {
-   display: block;
-   width: 0;
-   height: 6px;
-   background-color: #eb7264;
-}
-
-.part1 .xinfu_box .progress_part .tips {
-   color: #fff;
-   font-size: 14px;
-   position: absolute;
-   bottom: 11px;
-   right: 0;
-}
-
-.part1 .xinfu_box .progress_part ul {
-   margin-left: -8px;
-   margin-top: 130px;
-   width: 110%;
-}
-
-.part1 .xinfu_box .progress_part li {
-   float: left;
-   width: 160px;
-   height: 100%;
-   position: relative;
-}
-
-.part1 .xinfu_box .progress_part li.step3 {
-   z-index: 1;
-}
-
-.part1 .xinfu_box .progress_part li.step2 {
-   z-index: 2;
-}
-
-.part1 .xinfu_box .progress_part li.step1 {
-   z-index: 3;
-}
-
-.part1 .xinfu_box .progress_part li.active .get,
-.part1 .xinfu_box .progress_part li.active .dacheng,
-.part1 .xinfu_box .progress_part li.active .active_icon {
-   display: block;
-}
-
-.part1 .xinfu_box .progress_part li .get {
-   position: absolute;
-   width: 29px;
-   height: 30px;
-   background: url(https://yys.res.netease.com/pc/fab/20230109092324//temp_file/_get_c820ab6.png) 0 0 no-repeat;
-   top: -28px;
-   left: 50%;
-   margin-left: -15px;
-   display: none !important;
-}
-
-.part1 .xinfu_box .progress_part li .dacheng {
-   position: absolute;
-   width: 95px;
-   height: 83px;
-   background: url(https://i.imgur.com/MaL1lL4.png) 0 0 no-repeat;
-   background-size: 100% 100%;
-   top: 50%;
-   left: 50%;
-   margin: -41.5px 0 0 -47.5px;
-   z-index: 2;
-   display: none;
-   pointer-events: none;
-}
-
-.part1 .xinfu_box .progress_part li .line {
-   position: absolute;
-   width: 2px;
-   height: 48px;
-   background: url(https://i.imgur.com/6ehcbSV.png) 0 0 no-repeat;
-   background-size: 100% 100%;
-   right: 0;
-   top: 58px;
-   display: none;
-}
-
-.part1 .xinfu_box .progress_part li .active_icon {
-   position: absolute;
-   width: 3px;
-   height: 12px;
-   background: url(https://i.imgur.com/8WwNrhW.png) 0 0 no-repeat;
-   right: -3px;
-   top: 37px;
-   display: none;
-}
-
-.part1 .xinfu_box .progress_part li .name {
-   color: #edcc88;
-   font-size: 18.7px;
-   text-align: center;
-   margin-top: -11px;
-   font-weight: 700;
-   text-shadow: 0 0 5px #5a2a0e;
-}
-
-.part1 .xinfu_box .progress_part li .num {
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   margin: 6px auto 0;
-   width: 146px;
-   height: 29px;
-   background: url(https://i.imgur.com/dxBSgOR.png) 0 0 no-repeat;
-   padding-left: 26px;
-   padding-top: 4px;
-   -webkit-transform: scale(0.89);
-   -moz-transform: scale(0.89);
-   -ms-transform: scale(0.89);
-   transform: scale(0.89);
-}
-
-.part1 .xinfu_box .progress_part li .num em {
-   margin-right: 2px;
-   float: left;
-   width: 20px;
-   height: 20px;
-   background: url(https://i.imgur.com/vlnQvFk.png) 0 0 no-repeat;
-   background-size: 100% 100%;
-   -webkit-transform: scale(0.8);
-   -moz-transform: scale(0.8);
-   -ms-transform: scale(0.8);
-   transform: scale(0.8);
-}
-
-.part1 .xinfu_box .progress_part li .num span {
-   float: left;
-   font-size: 16px;
-   font-weight: 700;
-   color: #feedd4;
-}
-
-.part1 .xinfu_box .progress_part .nav_item {
-   display: block;
-   margin: 0 auto 15px;
-   position: relative;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span {
-   display: block;
-   margin: 0 auto;
-   position: relative;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span.icon1 {
-   background: url(https://i.imgur.com/uvT4U0F.png) 0 0 no-repeat;
-   width: 86px;
-   height: 84px;
-   background-size: 100% 100%;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span.icon2 {
-   background: url(https://i.imgur.com/inJS5UE.png) 0 0 no-repeat;
-   width: 87px;
-   height: 83px;
-   background-size: 100% 100%;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span.icon3 {
-   background: url(https://i.imgur.com/CT3CUpS.png) 0 0 no-repeat;
-   width: 87px;
-   height: 83px;
-   background-size: 100% 100%;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span.icon4 {
-   background: url(https://i.imgur.com/GiD5AUm.png) 0 0 no-repeat;
-   background-size: 100% 100%;
-   width: 86px;
-   height: 83px;
-}
-
-.part1 .xinfu_box .progress_part .nav_item span.icon5 {
-   background: url(https://i.imgur.com/iqcS5o2.png) 0 0 no-repeat;
-   width: auto;
-   height: 83px;
-   background-size: auto 100%;
-   background-position: center;
-}
-
-.part1 .xinfu_box .progress_part .xcx_btn {
-   position: absolute;
-   top: 158px;
-   right: -186px;
-   width: 170px;
-   height: 96px;
-   background-image: url(https://i.imgur.com/o6RLENo.png);
-   cursor: pointer;
-}
-
-.part1 .xinfu_box .progress_part .xcx_btn:hover {
-   -webkit-filter: brightness(130%);
-   filter: brightness(130%);
-   opacity: 0.8;
-}
-
-.part1 .xinfu_box .zhiliao_infopop {
-   position: absolute;
-   z-index: 2;
-   width: 312px;
-   height: 199px;
-   background: url(https://i.imgur.com/cPjoKvd.png) 0 0 no-repeat;
-   top: -176px;
-   left: 70px;
-   opacity: 0;
-   visibility: hidden;
-   display: none\9;
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
-   pointer-events: none;
-}
-
-.part1 .xinfu_box .zhiliao_infopop.transform {
-   left: -236px;
-   background-image: url(https://i.imgur.com/LAEgajc.png);
-}
-
-.part1 .xinfu_box .zhiliao_infopop.show {
-   opacity: 1;
-   visibility: visible;
-   display: block\9;
-}
-
-.part1 .xinfu_box .zhiliao_infopop h3 {
-   padding-top: 24px;
-   padding-bottom: 10px;
-   color: #000;
-   font-size: 22px;
-   font-weight: 700;
-   width: 264px;
-   border-bottom: 1px dashed #333;
-   margin: 0 auto;
-   margin-bottom: 5px;
-}
-
-.part1 .xinfu_box .zhiliao_infopop p {
-   width: 264px;
-   margin: 0 auto;
-   color: #000;
-   font-size: 14px;
-   line-height: 27px;
-}
-
-.part {
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   padding-top: 0.1px;
-}
-
-.part2 {
-   width: 100%;
-   height: auto;
-   background: url(https://i.imgur.com/9YxMxt8.jpg) no-repeat center;
-   background-size: 1920px 100%;
-}
-
-.part2 .tit {
-   width: 1073px;
-   height: 74px;
-   background: url(https://i.imgur.com/GZlkmGL.png) no-repeat center;
-   background-size: 100% 100%;
-   margin: 120px auto 0;
-}
-
-.part2 .item_w {
-   position: relative;
-   width: 1303px;
-   margin: 0 auto;
-   z-index: 0;
-}
-
-.part2 .item_w .item {
-   position: relative;
-   margin: 0 auto;
-}
-
-.part2 .item_w .item .more_btn {
-   position: absolute;
-   width: 205px;
-   height: 48px;
-   background: url(https://i.imgur.com/7ud5kQp.png) no-repeat center;
-   background-size: 100% 100%;
-}
-
-.part2 .item_w .item .more_btn:hover {
-   -webkit-filter: brightness(105%);
-   filter: brightness(105%);
-}
-
-.part2 .item_w .item:nth-child(1) {
-   width: 1225px;
-   height: 620px;
-   background: url(https://i.imgur.com/Ejffu8D.png) no-repeat center;
-   background-size: 100% 100%;
-   z-index: 3;
-   margin-top: -60px;
-}
-
-.part2 .item_w .item:nth-child(1) .more_btn {
-   top: 410px;
-   left: 616px;
-}
-
-.part2 .item_w .item:nth-child(2) {
-   width: 1284px;
-   height: 711px;
-   background: url(https://yys.res.netease.com/pc/fab/20230109092324//img/new_2/p2_item2_47b588f.png) no-repeat center;
-   background-size: 100% 100%;
-   z-index: 2;
-   margin-top: -231px;
-   margin-left: 46px;
-}
-
-.part2 .item_w .item:nth-child(2) .more_btn {
-   top: 475px;
-   left: 85px;
-}
-
-.part2 .item_w .item:nth-child(3) {
-   width: 1217px;
-   height: 562px;
-   background: url(https://yys.res.netease.com/pc/fab/20230109092324//img/new_2/p2_item3_7917ab7.png) no-repeat center;
-   background-size: 100% 100%;
-   z-index: 1;
-   margin-top: -140px;
-}
-
-.part2 .item_w .item:nth-child(3) .more_btn {
-   top: 348px;
-   left: 617px;
-}
-
-.part2 .item_w .item:nth-child(4) {
-   width: 1218px;
-   height: 526px;
-   background: url(https://yys.res.netease.com/pc/fab/20230109092324//img/new_2/p2_item4_205be10.png) no-repeat center;
-   background-size: 100% 100%;
-   margin-top: -150px;
-}
-
-.part2 .item_w .item:nth-child(4) .more_btn {
-   top: 414px;
-   left: 77px;
-}
-
-.part4 {
-   height: 1116px;
-}
-
-.part4 .tit {
-   background: url(https://my.res.netease.com/pc/zt/20211029102752/img/tit-2_2bc05d3.png) center no-repeat;
-}
-
-.part4 .people {
-   position: absolute;
-   top: 159px;
-   left: 50%;
-   margin-left: -535px;
-   width: 985px;
-   height: 750px;
-   background: url(https://i.imgur.com/PRnLagY.gif);
-}
-
-.part4 .left-btn,
-.part4 .right-btn {
-   position: absolute;
-   top: 245px;
-}
-
-.part4 .left-btn a,
-.part4 .right-btn a {
-   z-index: 10;
-   position: relative;
-   display: block;
-   width: 375px;
-   height: 162px;
-   margin: 0 0 40px;
-}
-
-.part4 .left-btn a:hover,
-.part4 .right-btn a:hover {
-   opacity: 0.8;
-}
-
-.part4 .left-btn {
-   left: 100px;
-}
-
-.part4 .left-btn a:nth-child(2) {
-   left: -40px;
-}
-
-.part4 .left-btn a:nth-child(3) {
-   left: -30px;
-}
-
-.part4 .left-btn a:nth-child(1) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part4 .left-btn a:nth-child(2) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part4 .left-btn a:nth-child(3) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part4 .right-btn {
-   right: 160px;
-}
-
-.part4 .right-btn a:nth-child(1) {
-   right: -70px;
-}
-
-.part4 .right-btn a:nth-child(2) {
-   right: -130px;
-}
-
-.part4 .right-btn a:nth-child(3) {
-   right: -90px;
-}
-
-.part4 .right-btn a:nth-child(1) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part4 .right-btn a:nth-child(2) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part4 .right-btn a:nth-child(3) {
-   background-size: cover;
-   width: 224px;
-   background-image: url(https://i.imgur.com/Z1jrpZu.png);
-   height: 224px;
-}
-
-.part3 {
-   min-width: 1400px;
-   width: 100%;
-   min-height: 887px;
-   background: url(https://i.imgur.com/V92deTa.jpg) no-repeat center;
-   background-size: 1920px 100%;
-}
-
-.part3 .tit {
-   width: 1073px;
-   height: 74px;
-   background: url(https://i.imgur.com/wZptMVS.png) no-repeat center;
-   background-size: 100% 100%;
-   margin: 32px auto 0;
-}
-
-.part4 {
-   width: 100%;
-   overflow: hidden;
-}
-
-.instructions {
-   z-index: 1;
-   position: sticky;
-   text-align: center;
-   padding: 20px 0;
-}
-
-h25 {
-   font-size: 50px;
-   background: linear-gradient(to left, #ffeb12, #dbdbdb);
-   background-clip: border-box;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   font-weight: 700;
+#heade_video {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.page1 {
+	height: 2722px !important;
+	width: 100%;
+	position: relative;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: unset;
+}
+.login {
+    position: absolute;
+    top: 640px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 740px;
+    height: 190px;
+    z-index: 15;
+    background: url(http://img.zing.vn/products/vltkmax/skin-2022/mainsite/assets/images/bg/bg-appinfo.png) center top no-repeat;
+}
+.page3 {
+    width: 100%;
+    height: 1010px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.header-power2 {
+    color: #ff9900;
+    font-size: 17px;
+    text-align: left;
 }

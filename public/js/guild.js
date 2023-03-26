@@ -16,7 +16,7 @@ $(document).ready(function () {
                             <th scope="row">`+ i++ + `</th>
                             <td class='d-flex align-items-center'>
     							<img class='ranking_img' src="`+ element.image + `"></img>
-    							<p>` + element.user_name + `</p>
+    							<p>` + element.name + `</p>
 						    </td> 
                             <td>`+ power + `</td>
                             <td>`+ element.role + `</td>
